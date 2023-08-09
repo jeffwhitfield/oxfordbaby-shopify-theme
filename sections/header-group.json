@@ -29,7 +29,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".header__inline-menu > .list-menu .header__menu-item {font-size: 1.5rem;}"
+        ".header__inline-menu > .list-menu .header__menu-item {font-size: 1.75rem;}"
       ],
       "settings": {
         "logo_position": "top-center",
