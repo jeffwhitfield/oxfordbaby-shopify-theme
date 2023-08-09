@@ -386,7 +386,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".has-text-white {color: #ffffff;}"
+      ".has-text-white {color: #ffffff !important;}"
     ]
   }
 }
