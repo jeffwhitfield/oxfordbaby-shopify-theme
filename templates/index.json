@@ -24,6 +24,23 @@
         "template--20502729752888__e967e06c-6c22-4d58-a704-acd4761221c3-slide-2": {
           "type": "slide",
           "settings": {
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "739c1696-26aa-4337-9ea9-9c6ce9992f5c": {
+          "type": "slide",
+          "settings": {
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -34,14 +51,15 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "",
+            "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
         "template--20502729752888__e967e06c-6c22-4d58-a704-acd4761221c3-slide-1",
-        "template--20502729752888__e967e06c-6c22-4d58-a704-acd4761221c3-slide-2"
+        "template--20502729752888__e967e06c-6c22-4d58-a704-acd4761221c3-slide-2",
+        "739c1696-26aa-4337-9ea9-9c6ce9992f5c"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -93,8 +111,8 @@
             "heading": "Crib",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
-            "button_label": "",
-            "link": "",
+            "button_label": "Review Cribs",
+            "link": "shopify:\/\/collections\/cribs",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -236,7 +254,7 @@
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
-        "slider_visual": "counter",
+        "slider_visual": "dots",
         "auto_rotate": false,
         "change_slides_speed": 5,
         "image_behavior": "none",
