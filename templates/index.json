@@ -72,36 +72,6 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Free Shipping  On All Orders Over $799!",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 32
-      }
-    },
     "39375ce9-61ad-4b3b-ada1-76dd93e4e234": {
       "type": "slideshow",
       "blocks": {
@@ -349,7 +319,6 @@
   },
   "order": [
     "e967e06c-6c22-4d58-a704-acd4761221c3",
-    "rich_text",
     "39375ce9-61ad-4b3b-ada1-76dd93e4e234",
     "61b5f2cc-62d3-41ba-b486-869d96e2e50a",
     "f44a957e-d4db-4a06-88cf-41719b9a3a5b",
