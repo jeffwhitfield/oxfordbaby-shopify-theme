@@ -3,27 +3,10 @@
     "e967e06c-6c22-4d58-a704-acd4761221c3": {
       "type": "slideshow",
       "blocks": {
-        "template--20502729752888__e967e06c-6c22-4d58-a704-acd4761221c3-slide-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ASTN-FB-WW-RS.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "template--20502729752888__e967e06c-6c22-4d58-a704-acd4761221c3-slide-2": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2023-08-28T093301.135.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -41,14 +24,51 @@
         "739c1696-26aa-4337-9ea9-9c6ce9992f5c": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2023-08-28T093551.700.jpg",
+            "heading": "",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
-            "show_text_box": true,
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "06ea248f-16b3-44f3-94e9-cdde7910be4c": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2023-08-28T093648.162.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "fb82a493-1fc6-4010-aca7-a72aa12180f3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2023-08-28T093838.935.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
@@ -57,9 +77,10 @@
         }
       },
       "block_order": [
-        "template--20502729752888__e967e06c-6c22-4d58-a704-acd4761221c3-slide-1",
         "template--20502729752888__e967e06c-6c22-4d58-a704-acd4761221c3-slide-2",
-        "739c1696-26aa-4337-9ea9-9c6ce9992f5c"
+        "739c1696-26aa-4337-9ea9-9c6ce9992f5c",
+        "06ea248f-16b3-44f3-94e9-cdde7910be4c",
+        "fb82a493-1fc6-4010-aca7-a72aa12180f3"
       ],
       "settings": {
         "layout": "full_bleed",
