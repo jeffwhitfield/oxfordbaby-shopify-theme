@@ -2635,6 +2635,11 @@ menu-drawer + .header__search {
   .header--top-center * > .header__search {
     display: none;
   }
+
+  .header__icons > .header__search {
+    display: inline-flex;
+  }
+
 }
 
 .no-js .predictive-search {
