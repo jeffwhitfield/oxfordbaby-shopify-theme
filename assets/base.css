@@ -2570,6 +2570,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 }
 
 .header__icon--cart {
+  padding: 1.125rem;
   position: relative;
   margin-right: -1.2rem;
 }
