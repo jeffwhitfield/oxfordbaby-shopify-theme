@@ -1391,6 +1391,10 @@ button.shopify-payment-button__button--unbranded {
   stroke: rgb(var(--color-button-text));
 }
 
+.button.button-primary {
+  background-color: #9c2429;
+  border-color: #9c2429;
+}
 /* Button - social share */
 
 .share-button {
