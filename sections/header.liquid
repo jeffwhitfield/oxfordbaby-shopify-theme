@@ -161,6 +161,16 @@
           render 'social-icons'
     %}
 
+    {%- liquid
+      if section.settings.menu != blank
+        render 'header-drawer'
+      endif
+
+      if section.settings.logo_position == 'top-center' or section.settings.menu == blank
+        render 'header-search', input_id: 'Search-In-Modal-1'
+      endif
+    -%}
+
     {%- if section.settings.logo_position != 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
         <h1 class="header__heading">
@@ -232,15 +242,7 @@
     {%- endif -%}
 
     <div class="header__icons{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header-localization{% endif %}">
-      {%- liquid
-        if section.settings.menu != blank
-          render 'header-drawer'
-        endif
 
-        if section.settings.logo_position == 'top-center' or section.settings.menu == blank
-          render 'header-search', input_id: 'Search-In-Modal-1'
-        endif
-      -%}
       {% render 'header-search', input_id: 'Search-In-Modal' %}
 
       <div class="desktop-localization-wrapper">
