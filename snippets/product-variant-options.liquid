@@ -60,6 +60,9 @@
       {% endif %}
     >
     <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
+      <span class="swatch">
+        <img src="https://oxfordbabyandkids.com/assets/Swatches/{{ value | downcase | replace: ' ', '-' }}.png" alt="{{ value -}}">
+      </span>
       {{ value -}}
       <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
     </label>

@@ -209,6 +209,19 @@ fieldset.product-form__input .form__label {
   transition: border var(--duration-short) ease;
   cursor: pointer;
   position: relative;
+  padding-left: 4rem;
+}
+
+.product-form__input .swatch {
+  position: absolute;
+  left: 2px;
+  top: 2px;
+}
+
+.product-form__input .swatch img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
 }
 
 .product-form__input input[type='radio'] + label:before {
