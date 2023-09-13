@@ -205,6 +205,16 @@
                 <span class="caption">{{ 'products.product.volume_pricing.note' | t }}</span>
               </div>
             {%- endif -%}
+
+        <div class="variants">
+        {% for variant in card_product.variants %}
+          <span class="swatch">
+            <img src="https://oxfordbabyandkids.com/assets/Swatches/{{ variant.title | downcase | replace: ' ', '-' }}.png" alt="{{ value -}}">
+          </span>
+        {% endfor %}
+        </div>
+
+
           </div>
         </div>
         {%- if show_quick_add -%}
