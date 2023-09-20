@@ -202,8 +202,17 @@
                     {% render 'icon-caret' %}
                   </summary>
                   <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
+                   {%- if block.settings.heading == 'Assembly Instructions' -%}
+                    {%- if product.metafields.custom.assembly_instructions_1_url -%}
+                    <p><a href="{{ product.metafields.custom.assembly_instructions_1_url }}" target="_blank">{{ product.metafields.custom.assembly_instructions_1_title | default: 'Assembly Instructions' }}</a></p>
+                    {%- endif -%}
+                    {%- if product.metafields.custom.assembly_instructions_2_url -%}
+                    <p><a href="{{ product.metafields.custom.assembly_instructions_2_url }}" target="_blank">{{ product.metafields.custom.assembly_instructions_2_title | default: 'Assembly Instructions' }}</a></p>
+                    {%- endif -%}
+                   {%- else -%}
                     {{ block.settings.content }}
                     {{ block.settings.page.content }}
+                   {%- endif -%}
                   </div>
                 </details>
               </div>
