@@ -52,9 +52,64 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "625befb2-c62c-4dfc-84b3-073a2b46f24e": {
+      "type": "collection-list",
+      "blocks": {
+        "template--20502729752888__625befb2-c62c-4dfc-84b3-073a2b46f24e-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--20502729752888__625befb2-c62c-4dfc-84b3-073a2b46f24e-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--20502729752888__625befb2-c62c-4dfc-84b3-073a2b46f24e-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "5e7747d4-77a4-4b0b-bd27-148bc24aacab": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "db3aa5be-8325-4f49-a6e0-8f4c84b27e08": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20502729752888__625befb2-c62c-4dfc-84b3-073a2b46f24e-featured_collection-1",
+        "template--20502729752888__625befb2-c62c-4dfc-84b3-073a2b46f24e-featured_collection-2",
+        "template--20502729752888__625befb2-c62c-4dfc-84b3-073a2b46f24e-featured_collection-3",
+        "5e7747d4-77a4-4b0b-bd27-148bc24aacab",
+        "db3aa5be-8325-4f49-a6e0-8f4c84b27e08"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "c2606e1a-524c-45a8-97df-95692da973bf"
+    "c2606e1a-524c-45a8-97df-95692da973bf",
+    "625befb2-c62c-4dfc-84b3-073a2b46f24e"
   ]
 }
