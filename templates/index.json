@@ -138,6 +138,7 @@
         "template--20502729752888__f5a0b836-31df-4688-b79b-4e9be9ee4f49-row-1": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/home-safer-for-baby.jpg",
             "caption": "",
             "heading": "Safer for baby and home",
             "text": "<p>All of our Cribs are GREENGUARD Gold Certified, ensuring that your nursery is a healthy space for your little one.<\/p><ul><li>Screened for 10,000 chemical compounds and VOC’s Rigorously<\/li><li>Tested & Approved<\/li><li>Cleaner Indoor Air<\/li><li>Promotes healthier breathing environment<\/li><\/ul>",
@@ -148,6 +149,7 @@
         "template--20502729752888__f5a0b836-31df-4688-b79b-4e9be9ee4f49-row-2": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/home-newest-collection.jpg",
             "caption": "",
             "heading": "Discover Our Newest Collection",
             "text": "",
@@ -158,6 +160,7 @@
         "template--20502729752888__f5a0b836-31df-4688-b79b-4e9be9ee4f49-row-3": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/home-grows-with-your-baby.jpg",
             "caption": "",
             "heading": "Grows With Your Baby",
             "text": "<p>All our cribs easily convert to a toddler bed, day bed and a full-size bed.<\/p>",
@@ -172,9 +175,9 @@
         "template--20502729752888__f5a0b836-31df-4688-b79b-4e9be9ee4f49-row-3"
       ],
       "settings": {
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_image_width": "medium",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "text_style": "body",
         "button_style": "secondary",
         "desktop_content_position": "middle",
