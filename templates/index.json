@@ -48,7 +48,7 @@
         ".slideshow__controls {display: none;}",
         ".banner__box {background-color: #82b4bd; outline: 1px solid #ffffff; outline-offset: -1rem;}",
         ".banner__box h2,.banner__box p {color: #ffffff;}",
-        ".banner__buttons .button {color: #ffffff !important; background-color: transparent; border: 1px solid #ffffff; border-radius: 1.25rem;}"
+        ".banner__buttons .button {color: #ffffff !important; background-color: transparent; border: 1px solid #ffffff; border-radius: 1.25rem; --border-offset: none;}"
       ],
       "settings": {
         "layout": "full_bleed",
