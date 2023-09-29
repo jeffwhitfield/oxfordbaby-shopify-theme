@@ -129,10 +129,10 @@
             "collection": "gliders-recliners"
           }
         },
-        "88fbba26-6e17-4443-94de-9ff62768b842": {
+        "d391e346-bd28-4945-998d-37c58fdca110": {
           "type": "featured_collection",
           "settings": {
-            "collection": "tables-chairs"
+            "collection": "night-stands"
           }
         }
       },
@@ -142,7 +142,7 @@
         "template--20502729752888__625befb2-c62c-4dfc-84b3-073a2b46f24e-featured_collection-3",
         "5e7747d4-77a4-4b0b-bd27-148bc24aacab",
         "db3aa5be-8325-4f49-a6e0-8f4c84b27e08",
-        "88fbba26-6e17-4443-94de-9ff62768b842"
+        "d391e346-bd28-4945-998d-37c58fdca110"
       ],
       "custom_css": [
         "h2 {width: 100%; text-align: center;}",
