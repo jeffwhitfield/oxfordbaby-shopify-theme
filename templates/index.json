@@ -106,6 +106,9 @@
         "db3aa5be-8325-4f49-a6e0-8f4c84b27e08",
         "88fbba26-6e17-4443-94de-9ff62768b842"
       ],
+      "custom_css": [
+        "h2 {width: 100%; text-align: center;}"
+      ],
       "settings": {
         "title": "Nursery Essentials",
         "heading_size": "h2",
