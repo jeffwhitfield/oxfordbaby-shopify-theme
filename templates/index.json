@@ -24,13 +24,14 @@
         "template--20502729752888__c2606e1a-524c-45a8-97df-95692da973bf-slide-2": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
+            "image": "shopify:\/\/shop_images\/CC-CB-VW-RS.jpg",
+            "heading": "Stylish cribs for every nursery",
+            "heading_size": "h2",
             "subheading": "Tell your brand's story through images",
             "button_label": "Button label",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "middle-right",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
