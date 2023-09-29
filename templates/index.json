@@ -108,8 +108,10 @@
       ],
       "custom_css": [
         "h2 {width: 100%; text-align: center;}",
-        " .card__inner {background-color: transparent;}",
-        ".card__media .media {border-radius: 50%;}"
+        ".card__inner {background-color: transparent;}",
+        ".card__media .media {border-radius: 50%;}",
+        ".card__heading {text-align: center; font-size: 1.25rem;}",
+        ".card__heading .icon-wrap {display: none;}"
       ],
       "settings": {
         "title": "Nursery Essentials",
