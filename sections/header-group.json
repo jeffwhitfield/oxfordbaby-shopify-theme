@@ -20,7 +20,7 @@
         ".announcement-bar__message {color: #ffffff; font-size: 1.5rem;}"
       ],
       "settings": {
-        "color_scheme": "scheme-151fb318-e150-4a55-893d-aeb8416bfbdd",
+        "color_scheme": "accent-2",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,
