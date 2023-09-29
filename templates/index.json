@@ -107,7 +107,9 @@
         "88fbba26-6e17-4443-94de-9ff62768b842"
       ],
       "custom_css": [
-        "h2 {width: 100%; text-align: center;}"
+        "h2 {width: 100%; text-align: center;}",
+        " .card__inner {background-color: transparent;}",
+        ".card__media .media {border-radius: 50%;}"
       ],
       "settings": {
         "title": "Nursery Essentials",
