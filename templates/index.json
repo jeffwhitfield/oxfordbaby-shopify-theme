@@ -108,6 +108,7 @@
       ],
       "custom_css": [
         "h2 {width: 100%; text-align: center;}",
+        ".card-wrapper {padding: 1rem;}",
         ".card__inner {background-color: transparent;}",
         ".card__media .media {border-radius: 50%;}",
         ".card__heading {text-align: center; font-size: 1.25rem;}",
