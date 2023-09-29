@@ -113,7 +113,7 @@
         ".card__media .media {border-radius: 50%;}",
         ".card__heading {text-align: center; font-size: 1.25rem;}",
         ".card__heading .icon-wrap {display: none;}",
-        ".card--media {padding-top: 50px; background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0782\/4392\/2232\/files\/collection-list-item-background.png?v=1695951623); background-size: 96%; background-repeat: no-repeat; background-position: 2px 6px}"
+        ".card--media {padding-top: 36%; background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0782\/4392\/2232\/files\/collection-list-item-background.png?v=1695951623); background-size: 96%; background-repeat: no-repeat; background-position: 2px 6px;}"
       ],
       "settings": {
         "title": "Nursery Essentials",
