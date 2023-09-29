@@ -11,7 +11,7 @@
             "heading_size": "h2",
             "subheading": "Start designing your nursery",
             "button_label": "Shop Now",
-            "link": "",
+            "link": "shopify:\/\/collections\/cribs",
             "button_style_secondary": false,
             "box_align": "middle-right",
             "show_text_box": true,
@@ -47,7 +47,8 @@
       "custom_css": [
         ".slideshow__controls {display: none;}",
         ".banner__box {background-color: #82b4bd; outline: 1px solid #ffffff; outline-offset: -1rem;}",
-        ".banner__box h2,.banner__box p {color: #ffffff;}"
+        ".banner__box h2,.banner__box p {color: #ffffff;}",
+        ".banner__buttons .button {color: #ffffff !important; background-color: transparent; border-color: #ffffff; border-radius: 25%;}"
       ],
       "settings": {
         "layout": "full_bleed",
