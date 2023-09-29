@@ -24,7 +24,7 @@
         "template--20502729752888__c2606e1a-524c-45a8-97df-95692da973bf-slide-2": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CC-CB-VW-RS.jpg",
+            "image": "shopify:\/\/shop_images\/Dawson_Crib_-_Brown_-_Angle_Lifestyle_Custom.jpg",
             "heading": "Stylish cribs for every nursery",
             "heading_size": "h2",
             "subheading": "Tell your brand's story through images",
@@ -38,11 +38,49 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
+        },
+        "7f30fd13-405c-4c98-aff2-2289a62a4904": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/London_Lane_Crib_-_Arctic_Gray_-_Angle_Lifestyle_Custom.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "d3ffa1d3-77b2-4816-ae69-821323fd5697": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/London_Lane_Crib_-_Arctic_Gray_-_Angle_Lifestyle_Custom_d61394e0-bcfe-49cd-a465-48795ddba75a.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "template--20502729752888__c2606e1a-524c-45a8-97df-95692da973bf-slide-1",
-        "template--20502729752888__c2606e1a-524c-45a8-97df-95692da973bf-slide-2"
+        "template--20502729752888__c2606e1a-524c-45a8-97df-95692da973bf-slide-2",
+        "7f30fd13-405c-4c98-aff2-2289a62a4904",
+        "d3ffa1d3-77b2-4816-ae69-821323fd5697"
       ],
       "custom_css": [
 
