@@ -2496,6 +2496,9 @@ product-info .loading-overlay:not(.hidden) ~ *,
   .header--mobile-left {
     grid-template-columns: auto 2fr 1fr;
   }
+  .header > .list-social {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 990px) {
