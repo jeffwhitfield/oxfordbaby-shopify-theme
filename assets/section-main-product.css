@@ -209,9 +209,13 @@ fieldset.product-form__input .form__label {
   transition: border var(--duration-short) ease;
   cursor: pointer;
   position: relative;
-  padding-left: 4rem;
 }
-
+.product-form__input .swatch-value {
+  padding-left: 2.25rem;
+}
+.product-form__input .swatch-value.no-swatch {
+  padding-left: 0;
+}
 .product-form__input .swatch {
   position: absolute;
   left: 2px;
