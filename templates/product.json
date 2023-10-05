@@ -82,6 +82,11 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "160dcf79-16a5-46c8-9555-44d3b9ebdece": {
+          "type": "shopify:\/\/apps\/vimg-multiple-variant-images\/blocks\/app.block\/3fcfc3bb-b4e3-44bd-9ff9-3d525461bb38",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -96,7 +101,8 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "160dcf79-16a5-46c8-9555-44d3b9ebdece"
       ],
       "settings": {
         "enable_sticky_info": true,
