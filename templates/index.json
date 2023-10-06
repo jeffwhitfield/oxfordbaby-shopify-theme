@@ -169,13 +169,7 @@
     "4d8bc98f-e4bc-45af-9981-601d1c659935": {
       "type": "custom-liquid",
       "custom_css": [
-        ".callout-soho {background-image: linear-gradient(to right, #ffffff, #001730); display: flex; flex-direction: row;}",
-        ".callout-soho-image,.callout-soho-text {flex: 1 1 40%; width: 40%;}",
-        ".callout-soho-logo {flex: 1 1 20%; width: 20%; display: flex; justify-content: center; align-items: center;}",
-        ".callout-soho-image img {width: 100%; height: 100%; object-fit: fill;}",
-        ".callout-soho-logo img {width: 150px; height: auto;}",
-        "..callout-soho-text {padding: 2rem;}",
-        ".callout-soho-text p {color: #ffffff; text-decoration: none; text-align: center;}"
+
       ],
       "settings": {
         "custom_liquid": "<a href=\"https:\/\/sohobaby.com\" target=\"_blank\" class=\"callout-soho\">\n    <div class=\"callout-soho-image\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0782\/4392\/2232\/files\/callout-soho-furniture.jpg?v=1696620403\">\n    <\/div>\n    <div class=\"callout-soho-logo\">\n        <div class=\"callout-soho-logo-container\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0782\/4392\/2232\/files\/callout-soho-logo.png?v=1696620403\">\n        <\/div>\n    <\/div>\n    <div class=\"callout-soho-text\">\n        <p>Check out our Soho Baby line of baby furniture for more options!<\/p>\n        <p class=\"uppercase\">Visit the website<\/p>\n    <\/div>\n<\/a>",
