@@ -172,7 +172,7 @@
         ".callout-soho {background-image: linear-gradient(to right, #ffffff, #001730); display: flex; flex-direction: row;}",
         ".callout-soho-image,.callout-soho-text {flex: 1 1 35%; width: 35%;}",
         ".callout-soho-logo {flex: 1 1 30%; width: 30%; display: flex; justify-content: center; align-items: center;}",
-        ".callout-soho-image img {width: 100%;}",
+        ".callout-soho-image img {width: 100%; height: 100%; object-fit: fill;}",
         ".callout-soho-logo img {width: 175px; height: auto;}"
       ],
       "settings": {
