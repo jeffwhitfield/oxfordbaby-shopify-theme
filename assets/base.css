@@ -3549,7 +3549,7 @@ details-disclosure > details {
 .callout-soho-text {
   padding: 1rem;
   justify-content: center;
-  align-items: ;
+  align-items: center;
   display: flex;
   flex-direction: column;
 }
@@ -3558,7 +3558,7 @@ details-disclosure > details {
   text-align: center;
   margin: 0;
   margin-bottom: 1rem;
-  width: 24rem;
+  width: 50%;
 }
 .callout-soho-text p.uppercase {
   text-transform: uppercase;
