@@ -3546,13 +3546,21 @@ details-disclosure > details {
   width: 150px;
   height: auto;
 }
-..callout-soho-text {
-  padding: 2rem;
+.callout-soho-text {
+  padding: 1rem;
+  justify-content: center;
+  align-items: ;
+  display: flex;
+  flex-direction: column;
 }
 .callout-soho-text p {
   color: #ffffff;
   text-align: center;
+  margin: 0;
+  margin-bottom: 1rem;
+  width: 24rem;
 }
 .callout-soho-text p.uppercase {
   text-transform: uppercase;
+  margin-bottom: 0;
 }
