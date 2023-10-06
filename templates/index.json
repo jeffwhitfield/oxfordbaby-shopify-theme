@@ -168,8 +168,11 @@
     },
     "4d8bc98f-e4bc-45af-9981-601d1c659935": {
       "type": "custom-liquid",
+      "custom_css": [
+        ".callout-soho {background-image: linear-gradient(to right, #ffffff, #001730);}"
+      ],
       "settings": {
-        "custom_liquid": "<div class=\"callout-soho\">\n<p style=\"text-align: center\"><strong>Soho Baby banner goes here<\/strong><\/p>\n<\/div>",
+        "custom_liquid": "<a href=\"https:\/\/sohobaby.com\" target=\"_blank\" class=\"callout-soho\">\n    <div class=\"callout-soho-image\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0782\/4392\/2232\/files\/callout-soho-furniture.jpg?v=1696620403\">\n    <\/div>\n    <div class=\"callout-soho-text\">\n        <p><strong>Check out our Soho Baby line of baby furniture for more options!<\/p>\n        <p>Visit the website<\/p>\n    <\/div>\n<\/a>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
