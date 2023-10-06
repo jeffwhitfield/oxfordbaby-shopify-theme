@@ -409,6 +409,32 @@
   flex-direction: column;
   row-gap: var(--grid-mobile-vertical-spacing);
 }
+.multirow__inner .image-with-text {
+  margin-bottom: -9px;
+}
+.multirow__inner .image-with-text:first-child .image-with-text__text-item {
+  background-image: url(https://cdn.shopify.com/s/files/1/0782/4392/2232/files/multirow-background-green.jpg?v=1696616080);
+  color: #ffffff;
+}
+.multirow__inner .image-with-text:first-child .image-with-text__text-item h2 {
+  color: #ffffff;
+}
+.multirow__inner .image-with-text:nth-child(2n+2) .image-with-text__text-item {
+  background-image: url(https://cdn.shopify.com/s/files/1/0782/4392/2232/files/multirow-background-white.jpg?v=1696616080);
+}
+.multirow__inner .image-with-text:nth-child(2n+2) .image-with-text__content {
+  padding-left: 6rem !important;
+}
+.multirow__inner .image-with-text:nth-child(3n+3) .image-with-text__text-item {
+  background-image: url(https://cdn.shopify.com/s/files/1/0782/4392/2232/files/multirow-background-brown.jpg?v=1696616080);
+  color: #ffffff;
+}
+.multirow__inner .image-with-text:nth-child(3n+3) .image-with-text__text-item h2 {
+  color: #ffffff;
+}
+.multirow__inner .image-with-text:nth-child(3n+3) .image-with-text__content {
+  padding-right: 6rem !important;
+}
 
 @media screen and (min-width: 750px) {
   .multirow__inner {
