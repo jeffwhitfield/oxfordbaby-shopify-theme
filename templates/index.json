@@ -169,7 +169,7 @@
     "4d8bc98f-e4bc-45af-9981-601d1c659935": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<p style=\"text-align: center\"><strong>Soho Baby banner goes here<\/strong><\/p>",
+        "custom_liquid": "<div class=\"callout-soho\">\n<p style=\"text-align: center\"><strong>Soho Baby banner goes here<\/strong><\/p>\n<\/div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
