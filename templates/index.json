@@ -174,8 +174,8 @@
       "settings": {
         "custom_liquid": "<a href=\"https:\/\/sohobaby.com\" target=\"_blank\" class=\"callout-soho\">\n    <div class=\"callout-soho-image\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0782\/4392\/2232\/files\/homepage-safety-callout-image.jpg?v=1696820928\">\n    <\/div>\n    <div class=\"callout-soho-logo\">\n        <div class=\"callout-soho-logo-container\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0782\/4392\/2232\/files\/callout-soho-logo.png?v=1696620403\">\n        <\/div>\n    <\/div>\n    <div class=\"callout-soho-text\">\n        <p>Check out our Soho Baby line of baby furniture for more options!<\/p>\n        <p class=\"uppercase\">Visit the website<\/p>\n    <\/div>\n<\/a>",
         "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "d82e94c2-585d-4077-b40a-31c163176a87": {
@@ -186,8 +186,8 @@
       "settings": {
         "custom_liquid": "<div class=\"callout-safety\">\n    <div class=\"callout-safety-logos callout-safety-logos-end\">\n      <div class=\"callout-safety-image\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0782\/4392\/2232\/files\/greenguard-logo.png?v=1696818991\">\n      <\/div>\n      <div class=\"callout-safety-image\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0782\/4392\/2232\/files\/cpsc-logo.png?v=1696818993\">\n      <\/div>\n    <\/div>\n    <div class=\"callout-safety-text\">\n        <p>Superior Quality,\nSafety & Craftsmanship<\/p>\n        <p class=\"uppercase\">The Highest Industry Standards<\/p>        \n    <\/div>\n    <div class=\"callout-safety-logos callout-safety-logos-start\">\n      <div class=\"callout-safety-image\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0782\/4392\/2232\/files\/bureau-veritas-logo.png?v=1696818991\">\n      <\/div>\n      <div class=\"callout-safety-image\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0782\/4392\/2232\/files\/astm-logo.png?v=1696818991\">\n      <\/div>\n    <\/div>\n<\/div>",
         "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "f5a0b836-31df-4688-b79b-4e9be9ee4f49": {
