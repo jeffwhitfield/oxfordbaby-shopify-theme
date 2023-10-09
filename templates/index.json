@@ -181,10 +181,11 @@
     "d82e94c2-585d-4077-b40a-31c163176a87": {
       "type": "custom-liquid",
       "custom_css": [
-        ".callout-safety {background-color: #E0E0E0;}"
+        ".callout-safety {background-color: #e0e0e0; display: flex;}",
+        ".callout-safety-logos {display: flex;}"
       ],
       "settings": {
-        "custom_liquid": "<div class=\"callout-safety\">\n    <div class=\"callout-safety-logos\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0782\/4392\/2232\/files\/greenguard-logo.png?v=1696818991\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0782\/4392\/2232\/files\/cpsc-logo.png?v=1696818993\">\n    <\/div>\n    <div class=\"callout-safety-text\">\n        <p>Superior Quality,\nSafety & Craftsmanship<\/p>\n        <p class=\"uppercase\">The Highest Industry Standards<\/p>        \n    <\/div>\n    <div class=\"callout-safety-logos\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0782\/4392\/2232\/files\/bureau-veritas-logo.png?v=1696818991\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0782\/4392\/2232\/files\/astm-logo.png?v=1696818991\">\n    <\/div>\n<\/div>",
+        "custom_liquid": "<div class=\"callout-safety\">\n    <div class=\"callout-safety-logos\">\n      <div class=\"callout-safety-image\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0782\/4392\/2232\/files\/greenguard-logo.png?v=1696818991\">\n      <\/div>\n      <div class=\"callout-safety-image\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0782\/4392\/2232\/files\/cpsc-logo.png?v=1696818993\">\n      <\/div>\n    <\/div>\n    <div class=\"callout-safety-text\">\n        <p>Superior Quality,\nSafety & Craftsmanship<\/p>\n        <p class=\"uppercase\">The Highest Industry Standards<\/p>        \n    <\/div>\n    <div class=\"callout-safety-logos\">\n      <div class=\"callout-safety-image\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0782\/4392\/2232\/files\/bureau-veritas-logo.png?v=1696818991\">\n      <\/div>\n      <div class=\"callout-safety-image\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0782\/4392\/2232\/files\/astm-logo.png?v=1696818991\">\n      <\/div>\n    <\/div>\n<\/div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
