@@ -3590,10 +3590,14 @@ details-disclosure > details {
   width: calc(100% / 3);
   text-align: center;
   padding: 3rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .callout-safety-text p {
   font-size: 2rem;
   font-weight: 700;
+  margin: 0;
 }
 .callout-safety-text p.uppercase {
   font-size: 1.5rem;
