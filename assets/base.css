@@ -3572,23 +3572,31 @@ details-disclosure > details {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 3rem 0;
 }
 .callout-safety-logos-start {
   justify-content: flex-start;
 }
+.callout-safety-logos-start .callout-safety-image {
+  margin-left: 4rem;
+}
 .callout-safety-logos-end {
   justify-content: flex-end;
+}
+.callout-safety-logos-end .callout-safety-image {
+  margin-right: 4rem;
 }
 .callout-safety-text {
   width: calc(100% / 3);
   text-align: center;
+  padding: 3rem;
 }
 .callout-safety-text p {
   font-size: 2rem;
   font-weight: 700;
 }
 .callout-safety-text p.uppercase {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 .callout-safety-image {
