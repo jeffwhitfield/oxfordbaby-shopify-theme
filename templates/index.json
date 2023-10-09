@@ -172,7 +172,7 @@
 
       ],
       "settings": {
-        "custom_liquid": "<a href=\"https:\/\/sohobaby.com\" target=\"_blank\" class=\"callout-soho\">\n    <div class=\"callout-soho-image\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0782\/4392\/2232\/files\/Cascade.jpg?v=1696798986\">\n    <\/div>\n    <div class=\"callout-soho-logo\">\n        <div class=\"callout-soho-logo-container\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0782\/4392\/2232\/files\/callout-soho-logo.png?v=1696620403\">\n        <\/div>\n    <\/div>\n    <div class=\"callout-soho-text\">\n        <p>Check out our Soho Baby line of baby furniture for more options!<\/p>\n        <p class=\"uppercase\">Visit the website<\/p>\n    <\/div>\n<\/a>",
+        "custom_liquid": "<a href=\"https:\/\/sohobaby.com\" target=\"_blank\" class=\"callout-soho\">\n    <div class=\"callout-soho-image\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0782\/4392\/2232\/files\/Cascade.jpg?v=1696799172\">\n    <\/div>\n    <div class=\"callout-soho-logo\">\n        <div class=\"callout-soho-logo-container\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0782\/4392\/2232\/files\/callout-soho-logo.png?v=1696620403\">\n        <\/div>\n    <\/div>\n    <div class=\"callout-soho-text\">\n        <p>Check out our Soho Baby line of baby furniture for more options!<\/p>\n        <p class=\"uppercase\">Visit the website<\/p>\n    <\/div>\n<\/a>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -181,7 +181,7 @@
     "d82e94c2-585d-4077-b40a-31c163176a87": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<p style=\"text-align: center\"><strong>Superior Quality, Safety & Craftsmanship<\/strong><\/p>",
+        "custom_liquid": "<div class=\"callout-safety\">\n    <div class=\"callout-safety-logos\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0782\/4392\/2232\/files\/greenguard-logo.png?v=1696818991\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0782\/4392\/2232\/files\/cpsc-logo.png?v=1696818993\">\n    <\/div>\n    <div class=\"callout-safety-text\">\n        <p>Check out our Soho Baby line of baby furniture for more options!<\/p>\n        <p class=\"uppercase\">Visit the website<\/p>        \n    <\/div>\n<\/a>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
