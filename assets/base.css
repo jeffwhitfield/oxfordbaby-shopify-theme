@@ -3540,7 +3540,7 @@ details-disclosure > details {
 .callout-soho-image img {
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: cover;
 }
 .callout-soho-logo img {
   width: 150px;
@@ -3611,4 +3611,37 @@ details-disclosure > details {
   height: 100%;
   width: 100%;
   object-fit: scale;
+}
+@media screen and (max-width: 749px) {
+  .callout-soho {
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, #ffffff, #001730);
+  }
+  .callout-soho-image,
+  .callout-soho-logo,
+  .callout-soho-text {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+  .callout-soho-logo-container {
+    padding: 1rem;
+  }
+  .callout-soho-text {
+    padding-top: 0;
+  }
+  .callout-safety {
+    flex-direction: column;
+  }
+  .callout-safety-logos,
+  .callout-safety-text {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+  .callout-safety-logos {
+    justify-content: center;
+  }
+  .callout-safety-image {
+    margin-right: 2rem !important;
+    margin-left: 2rem !important;
+  }
 }
