@@ -3563,3 +3563,39 @@ details-disclosure > details {
   text-transform: uppercase;
   margin-bottom: 0;
 }
+.callout-safety {
+  background-color: #e0e0e0;
+  display: flex;
+}
+.callout-safety-logos {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.callout-safety-logos-start {
+  justify-content: flex-start;
+}
+.callout-safety-logos-end {
+  justify-content: flex-end;
+}
+.callout-safety-text {
+  width: calc(100% / 3);
+  text-align: center;
+}
+.callout-safety-text p {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.callout-safety-text p.uppercase {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.callout-safety-image {
+  height: 8rem;
+}
+.callout-safety-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: scale;
+}
