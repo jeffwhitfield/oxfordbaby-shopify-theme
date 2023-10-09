@@ -52,8 +52,15 @@ slideshow-component .slideshow.banner {
 .slideshow__controls {
   display: none !important;
 }
+.slideshow__text-wrapper {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  padding: 0 1rem 0 0!important;
+}
 .slideshow__text.banner__box {
-  background-color: #82b4bd;
+  background-color: #82b4bd !important;
   outline: 1px solid #ffffff;
   outline-offset: -1rem;
 }
@@ -65,14 +72,19 @@ slideshow-component .slideshow.banner {
   background-color: transparent;
   border: 1px solid #ffffff;
   border-radius: 1.25rem;
+}
+.slideshow__text .banner__buttons .button:before,
+.slideshow__text .banner__buttons .button:after {
   --border-offset: none;
 }
 .slideshow__media.banner__media {
   background-image: url(https://cdn.shopify.com/s/files/1/0782/4392/2232/files/hero-slide-background.png?v=1695948211);
   background-size: 50%;
+  position: relative !important;
 }
 .slideshow__media.banner__media img {
   width: 64% !important;
+  position: relative !important;
 }
 
 @media screen and (max-width: 749px) {
