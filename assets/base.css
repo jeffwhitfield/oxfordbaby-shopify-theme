@@ -3590,6 +3590,7 @@ details-disclosure > details {
   width: calc(100% / 3);
   text-align: center;
   padding: 3rem;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
