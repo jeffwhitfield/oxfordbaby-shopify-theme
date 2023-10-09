@@ -183,7 +183,7 @@
       "custom_css": [
         ".callout-safety {background-color: #e0e0e0; display: flex;}",
         ".callout-safety-logos {width: calc(100% \/ 3); display: flex; flex-direction: row;}",
-        ".callout-safety-text {width: calc(100% \/ 3);}",
+        ".callout-safety-text {width: calc(100% \/ 3); text-align: center;}",
         ".callout-safety-image {height: 8rem;}",
         ".callout-safety-image img {height: 100%; width: 100%; object-fit: scale;}"
       ],
