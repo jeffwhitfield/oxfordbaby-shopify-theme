@@ -10,4 +10,7 @@
 
 <div class="assembly-collection">
   <h2>{{- collection.title | escape -}}</h2>
+  {%- for product in collections -%}
+    {{- product.title -}}
+  {%- endfor -%}
 </div>
