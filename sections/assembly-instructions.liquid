@@ -1,3 +1,7 @@
+{%- liquid
+   assign collections = collections
+-%}
+
 <div class="page-width">
   <h1 class="title title--primary inline-richtext">
     Assembly Instructions
@@ -6,12 +10,12 @@
       {%- for collection in collections -%}
       {% if collection.title contains "Collection" %}
         <div class="assembly-collection">
-Durp
         </div>
       {% endif %}
       {%- endfor -%}
     </div>
 </div>
+
 {% schema %}
 {
   "name": "t:sections.assembly-instructions.name",
