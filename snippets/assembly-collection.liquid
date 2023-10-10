@@ -11,16 +11,26 @@
 <div class="assembly-collection">
   <h2>{{- collection.title | escape -}}</h2>
   <div class="assembly-set">
-  {%- for product in collection.products -%}
-    <div class="assembly-product">
-      <h3>{{- product.title -}}</h3>
+    {%- for product in collection.products -%}
       {%- if product.metafields.custom.assembly_instructions_1_url -%}
-      <p><a href="{{ product.metafields.custom.assembly_instructions_1_url }}" target="_blank">{{ product.metafields.custom.assembly_instructions_1_title | default: 'Assembly Instructions' }}</a></p>
+        <div class="assembly-product">
+          <h3>{{- product.title -}}</h3>
+          {%- if product.metafields.custom.assembly_instructions_1_url -%}
+            <p>
+              <a href="{{ product.metafields.custom.assembly_instructions_1_url }}" target="_blank">
+                {{- product.metafields.custom.assembly_instructions_1_title | default: 'Assembly Instructions' -}}
+              </a>
+            </p>
+          {%- endif -%}
+          {%- if product.metafields.custom.assembly_instructions_2_url -%}
+            <p>
+              <a href="{{ product.metafields.custom.assembly_instructions_2_url }}" target="_blank">
+                {{- product.metafields.custom.assembly_instructions_2_title | default: 'Assembly Instructions' -}}
+              </a>
+            </p>
+          {%- endif -%}
+        </div>
       {%- endif -%}
-      {%- if product.metafields.custom.assembly_instructions_2_url -%}
-      <p><a href="{{ product.metafields.custom.assembly_instructions_2_url }}" target="_blank">{{ product.metafields.custom.assembly_instructions_2_title | default: 'Assembly Instructions' }}</a></p>
-      {%- endif -%}      
-    </div>
-  {%- endfor -%}
+    {%- endfor -%}
   </div>
 </div>
