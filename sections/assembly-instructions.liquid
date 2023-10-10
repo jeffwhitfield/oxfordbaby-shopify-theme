@@ -10,6 +10,11 @@
       {%- for collection in collections -%}
       {% if collection.title contains "Collection" %}
         <div class="assembly-collection">
+          {% render 'card-collection-nursery-sets',
+            card_collection: collection,
+            media_aspect_ratio: section.settings.image_ratio,
+            columns: 3
+          %}
         </div>
       {% endif %}
       {%- endfor -%}
