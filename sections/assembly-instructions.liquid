@@ -3,7 +3,7 @@
 
 <div class="page-width">
   <h1 class="title title--primary inline-richtext{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-    {{ section.settings.title }}
+    Assembly Instructions
   </h1>
   {%- liquid
     case section.settings.sort
@@ -23,7 +23,6 @@
       assign paginate_by = 28
     endif
   -%}
-  {%- paginate collections by paginate_by -%}
     <ul
       class="nursery-sets collection-list grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down"
       role="list"
@@ -46,8 +45,6 @@
       {% endif %}
       {%- endfor -%}
     </ul>
-    {% render 'pagination', paginate: paginate %}
-  {%- endpaginate -%}
 </div>
 {% schema %}
 {
