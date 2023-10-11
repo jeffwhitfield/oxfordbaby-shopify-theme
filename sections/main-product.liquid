@@ -125,10 +125,10 @@
                   {{ form | payment_terms }}
                 {%- endform -%}
               </div>
+            {%- when 'inventory' -%}
             {%- if product.metafields.custom.retailer_exclusive_url -%}
             <p><a class="button button--secondary" href="{{ product.metafields.custom.retailer_exclusive_url }}" target="_blank">Retailer Exclusive</a></p>
-            {%- endif -%}
-            {%- when 'inventory' -%}
+            {%- else -%}            
               <p
                 class="product__inventory no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.inventory_management != 'shopify' %} visibility-hidden{% endif %}"
                 {{ block.shopify_attributes }}
@@ -147,7 +147,6 @@
                       {%- else -%}
                         {{- 'products.product.inventory_low_stock' | t -}}
                       {%- endif -%}
-                    {%- else -%}
                       <svg width="15" height="15" aria-hidden="true">
                         <circle cx="7.5" cy="7.5" r="7.5" fill="rgb(62,214,96, 0.3)"/>
                         <circle cx="7.5" cy="7.5" r="5" stroke="rgb(255, 255, 255)" stroke-width="1" fill="rgb(62,214,96)"/>
@@ -175,6 +174,8 @@
                   {%- endif -%}
                 {%- endif -%}
               </p>
+            {%- endif -%}  
+            
             {%- when 'description' -%}
               {%- if product.description != blank -%}
                 <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
