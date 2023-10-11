@@ -125,11 +125,6 @@
                   {{ form | payment_terms }}
                 {%- endform -%}
               </div>
-
-            {%- if product.metafields.custom.retailer_exclusive_url -%}
-            <p><a class="button button--secondary" href="{{ product.metafields.custom.retailer_exclusive_url }}" target="_blank">Retailer Exclusive</a></p>
-            {%- else -%}            
-            {%- endif -%}  
             
             {%- when 'inventory' -%}
               <p
@@ -224,6 +219,9 @@
                 </details>
               </div>
             {%- when 'quantity_selector' -%}
+            {%- if product.metafields.custom.retailer_exclusive_url -%}
+            <p><a class="button button--secondary" href="{{ product.metafields.custom.retailer_exclusive_url }}" target="_blank">Retailer Exclusive</a></p>
+            {%- else -%}            
               <div
                 id="Quantity-Form-{{ section.id }}"
                 class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}"
@@ -411,6 +409,8 @@
                   </volume-pricing>
                 {%- endif -%}
               </div>
+            {%- endif -%}  
+
             {%- when 'popup' -%}
               <modal-opener
                 class="product-popup-modal__opener no-js-hidden quick-add-hidden"
