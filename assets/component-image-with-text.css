@@ -416,6 +416,20 @@
   background-image: url(https://cdn.shopify.com/s/files/1/0782/4392/2232/files/multirow-background-green.jpg?v=1696616080);
   color: #ffffff;
 }
+.multirow__inner .image-with-text:first-child .image-with-text__media {
+  position: relative;
+}
+.multirow__inner .image-with-text:first-child .image-with-text__media:after {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  width: 100px;
+  height: 134px;
+  background-image: url(https://cdn.shopify.com/s/files/1/0782/4392/2232/files/greenguard-logo.png?v=1696818991);
+  background-size: 100%;
+  z-index: 99;
+}
+
 .multirow__inner .image-with-text:first-child .image-with-text__text-item h2 {
   color: #ffffff;
 }
