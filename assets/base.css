@@ -3606,11 +3606,13 @@ details-disclosure > details {
 }
 .callout-safety-image {
   height: 8rem;
+  flex: 0 0 25%;
+  width: 25%;
 }
 .callout-safety-image img {
   height: 100%;
   width: 100%;
-  object-fit: scale;
+  object-fit: contain;
 }
 @media screen and (max-width: 749px) {
   .callout-soho {
