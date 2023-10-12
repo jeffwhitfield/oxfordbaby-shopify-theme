@@ -205,7 +205,8 @@
         "template--20502729654584__27218630-0147-40e0-a690-978f9748e4a6-text-1"
       ],
       "settings": {
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/istockphoto-942692330-612x612.jpg",
+        "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
