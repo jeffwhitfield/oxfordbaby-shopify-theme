@@ -122,7 +122,8 @@
         "template--20502729654584__94da3d73-588b-457e-b382-97922e76f505-button-1"
       ],
       "settings": {
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/safety-logos.png",
+        "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
