@@ -213,17 +213,18 @@
               </div>
             {%- endif -%}
 
-        <div class="variants">
-        {% for variant in card_product.variants %}
-          {%- if variant.title != "Standard" -%}
-          <span class="swatch">
-            <img src="https://oxfordbabyandkids.com/assets/Swatches/{{ variant.title | downcase | replace: ' ', '-' }}.png" alt="{{ value -}}">
-          </span>
-          {%- endif -%}
-        {% endfor %}
-        </div>
-
-
+            <div class="variants">
+              {% for variant in card_product.variants %}
+                {%- if variant.title != 'Standard' or variant.title != 'Default' -%}
+                  <span class="swatch">
+                    <img
+                      src="https://oxfordbabyandkids.com/assets/Swatches/{{ variant.title | downcase | replace: ' ', '-' }}.png"
+                      alt="{{ value -}}"
+                    >
+                  </span>
+                {%- endif -%}
+              {% endfor %}
+            </div>
           </div>
         </div>
         {%- if show_quick_add -%}
