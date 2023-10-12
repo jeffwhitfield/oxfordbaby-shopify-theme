@@ -7,34 +7,41 @@
         "padding_bottom": 28
       }
     },
-    "43e55883-3098-4c5c-abbe-e5699dedacbd": {
-      "type": "rich-text",
+    "dfe789da-ddc4-47c2-9de7-95d53423c17e": {
+      "type": "image-with-text",
       "blocks": {
-        "template--20959280038200__43e55883-3098-4c5c-abbe-e5699dedacbd-heading-1": {
+        "template--20959280038200__dfe789da-ddc4-47c2-9de7-95d53423c17e-heading-1": {
           "type": "heading",
           "settings": {
             "heading": "About Oxford Baby",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
-        "template--20959280038200__43e55883-3098-4c5c-abbe-e5699dedacbd-text-1": {
+        "template--20959280038200__dfe789da-ddc4-47c2-9de7-95d53423c17e-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>At Oxford Baby, we are dedicated to providing safe, high-quality nursery furniture for your little one. Oxford Baby is a division of the parent company M Design Village who also own the premium brand Soho Baby. With over 30 years of experience designing and manufacturing baby furniture, Oxford Baby helps parents create unique, stylish, and safe nurseries every day. Each collection is crafted from the finest materials to ensure countless years of special memories.<\/p><p>Oxford Baby provides furniture that moms love, families cherish, and competitors strive toward. Our unique designs enable you to create your perfect nursery, as well as memories that will last a lifetime.<\/p>"
+            "text": "<p>At Oxford Baby, we are dedicated to providing safe, high-quality nursery furniture for your little one. Oxford Baby is a division of the parent company M Design Village who also own the premium brand Soho Baby. With over 30 years of experience designing and manufacturing baby furniture, Oxford Baby helps parents create unique, stylish, and safe nurseries every day. Each collection is crafted from the finest materials to ensure countless years of special memories.<\/p><p>Oxford Baby provides furniture that moms love, families cherish, and competitors strive toward. Our unique designs enable you to create your perfect nursery, as well as memories that will last a lifetime.<\/p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "template--20959280038200__43e55883-3098-4c5c-abbe-e5699dedacbd-heading-1",
-        "template--20959280038200__43e55883-3098-4c5c-abbe-e5699dedacbd-text-1"
+        "template--20959280038200__dfe789da-ddc4-47c2-9de7-95d53423c17e-heading-1",
+        "template--20959280038200__dfe789da-ddc4-47c2-9de7-95d53423c17e-text-1"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
+        "image": "shopify:\/\/shop_images\/Weston-Crib-Vintage-White-Angle-Lifestyle.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "ab6a155b-ac82-498a-ab50-f6155b912ece": {
@@ -44,7 +51,7 @@
           "type": "heading",
           "settings": {
             "heading": "GREENGUARD Gold Certified",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "template--20502729654584__ab6a155b-ac82-498a-ab50-f6155b912ece-text-1": {
@@ -89,7 +96,7 @@
           "type": "heading",
           "settings": {
             "heading": "Safety",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "template--20502729654584__94da3d73-588b-457e-b382-97922e76f505-text-1": {
@@ -134,7 +141,7 @@
           "type": "heading",
           "settings": {
             "heading": "Sustainability",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "template--20502729654584__5fb8316d-bef5-4136-8137-898d72aa1eca-text-1": {
@@ -179,7 +186,7 @@
           "type": "heading",
           "settings": {
             "heading": "Design & Quality",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "template--20502729654584__27218630-0147-40e0-a690-978f9748e4a6-text-1": {
@@ -211,7 +218,7 @@
   },
   "order": [
     "main",
-    "43e55883-3098-4c5c-abbe-e5699dedacbd",
+    "dfe789da-ddc4-47c2-9de7-95d53423c17e",
     "ab6a155b-ac82-498a-ab50-f6155b912ece",
     "94da3d73-588b-457e-b382-97922e76f505",
     "5fb8316d-bef5-4136-8137-898d72aa1eca",
