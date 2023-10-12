@@ -31,7 +31,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Weston-Crib-Vintage-White-Angle-Lifestyle.jpg",
-        "height": "small",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -77,7 +77,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/greenguard-logo.png",
-        "height": "small",
+        "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
         "desktop_content_position": "top",
@@ -123,7 +123,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/safety-logos.png",
-        "height": "small",
+        "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -169,7 +169,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/sustainability-callout.jpg",
-        "height": "small",
+        "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
         "desktop_content_position": "top",
@@ -206,7 +206,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/istockphoto-942692330-612x612.jpg",
-        "height": "small",
+        "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
