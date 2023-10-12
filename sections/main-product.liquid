@@ -97,6 +97,8 @@
                 </a>
               </div>
             {%- when 'price' -%}
+              {%- if product.metafields.custom.retailer_exclusive_url -%}
+              {%- else -%}
               <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                 {%- render 'price',
                   product: product,
@@ -125,7 +127,8 @@
                   {{ form | payment_terms }}
                 {%- endform -%}
               </div>
-            
+            {%- endif -%}
+
             {%- when 'inventory' -%}
               <p
                 class="product__inventory no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.inventory_management != 'shopify' %} visibility-hidden{% endif %}"
@@ -173,7 +176,7 @@
                 {%- endif -%}
               </p>
 
-            
+
             {%- when 'description' -%}
               {%- if product.description != blank -%}
                 <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
@@ -220,8 +223,8 @@
               </div>
             {%- when 'quantity_selector' -%}
             {%- if product.metafields.custom.retailer_exclusive_url -%}
-            <p><a class="button button--secondary" href="{{ product.metafields.custom.retailer_exclusive_url }}" target="_blank">Retailer Exclusive</a></p>
-            {%- else -%}            
+            <p><a class="button button--secondary" href="{{ product.metafields.custom.retailer_exclusive_url }}" target="_blank">{{ product.metafields.custom.retailer_exclusive_title | default: 'Retailer Exclusive' }}</a></p>
+            {%- else -%}
               <div
                 id="Quantity-Form-{{ section.id }}"
                 class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}"
@@ -409,7 +412,7 @@
                   </volume-pricing>
                 {%- endif -%}
               </div>
-            {%- endif -%}  
+            {%- endif -%}
 
             {%- when 'popup' -%}
               <modal-opener
