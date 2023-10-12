@@ -216,6 +216,7 @@
             <div class="variants">
               {% for variant in card_product.variants %}
                 {%- if variant.title != 'Standard' or variant.title != 'Default' -%}
+                  {{ variant.title }}
                   <span class="swatch">
                     <img
                       src="https://oxfordbabyandkids.com/assets/Swatches/{{ variant.title | downcase | replace: ' ', '-' }}.png"
