@@ -39,6 +39,7 @@
   width: 100%;
 }
 
+
 @media screen and (min-width: 750px) {
   .image-with-text__media--small {
     height: 31.4rem;
@@ -102,6 +103,13 @@
   position: relative;
   z-index: 1;
 }
+
+@media screen and (max-width: 749px) {
+  .image-with-text__content {
+    padding-top: 2rem !important;
+  }
+}
+
 
 .image-with-text .grid__item::after {
   content: '';
