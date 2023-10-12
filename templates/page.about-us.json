@@ -76,7 +76,8 @@
         "template--20502729654584__ab6a155b-ac82-498a-ab50-f6155b912ece-button-1"
       ],
       "settings": {
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/greenguard-logo.png",
+        "height": "small",
         "desktop_image_width": "small",
         "layout": "text_first",
         "desktop_content_position": "top",
