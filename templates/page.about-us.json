@@ -168,7 +168,8 @@
         "template--20502729654584__5fb8316d-bef5-4136-8137-898d72aa1eca-button-1"
       ],
       "settings": {
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/sustainability-callout.jpg",
+        "height": "small",
         "desktop_image_width": "small",
         "layout": "text_first",
         "desktop_content_position": "top",
