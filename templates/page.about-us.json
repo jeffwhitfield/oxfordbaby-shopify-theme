@@ -203,20 +203,11 @@
             "text": "<p>Our products feature beautiful designs, aesthetics, and architecture. Additionally, our furniture is made from sustainable kiln-dried solid wood and veneers for strength, durability, and fine texture. We take pride in our exceptional craftsmanship and high-quality products.<\/p><p>High quality nursery furniture creates peace of mind and makes life easier for parents. We proudly use Solid Wood and Veneers to produce all of our nursery furniture for sturdiness and durability. The wood we use is hand-selected and kiln-dried to create hardness and prevent cracks. Additionally, our finishes are produced through a multi-step hand-rubbed process by fine wood artisans. <\/p><p>Our dressers feature under mount or side mount drawer glides with an English Dovetail or French Dovetail drawer construction. <\/p><p>At Oxford Baby we ensure that you get the best for your bundle of joy .<br\/><\/p>",
             "text_style": "body"
           }
-        },
-        "template--20502729654584__27218630-0147-40e0-a690-978f9748e4a6-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "template--20502729654584__27218630-0147-40e0-a690-978f9748e4a6-heading-1",
-        "template--20502729654584__27218630-0147-40e0-a690-978f9748e4a6-text-1",
-        "template--20502729654584__27218630-0147-40e0-a690-978f9748e4a6-button-1"
+        "template--20502729654584__27218630-0147-40e0-a690-978f9748e4a6-text-1"
       ],
       "settings": {
         "height": "adapt",
