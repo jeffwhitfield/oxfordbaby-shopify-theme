@@ -125,12 +125,4 @@
       {{ 'products.product.sold_out' | t }}
     </span>
   {%- endif -%}
-  {%- if product.metafields.custom.retailer_exclusive_url -%}
-    <span class="badge price__badge-sold-out color-{{ settings.sold_out_badge_color_scheme }}">
-      Retailer Exclusive
-    </span>
-  {%- endif -%}
-  {%- if product.tags contains 'Clearance' -%}
-    <span class="badge price__badge-sold-out color-{{ settings.sold_out_badge_color_scheme }}"> Clearance </span>
-  {%- endif -%}
 </div>
