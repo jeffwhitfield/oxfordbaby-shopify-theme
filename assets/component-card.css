@@ -104,6 +104,11 @@
   bottom: 0;
   position: absolute;
   top: 0;
+  padding-top: 100%;
+}
+
+.nursery-sets .card .media {
+  padding-top: 0;
 }
 
 .card .media {
@@ -183,9 +188,12 @@
 
 .card__media .media img {
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center center;
   width: 100%;
+}
+.nursery-sets .card__media .media img {
+  object-fit: cover;
 }
 
 .card__inner:not(.ratio)>.card__content {
