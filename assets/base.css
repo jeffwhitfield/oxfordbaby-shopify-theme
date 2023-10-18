@@ -3672,3 +3672,7 @@ details-disclosure > details {
     width: 100%;
   }
 }
+
+.collection-list-homepage .card__media .media img {
+  object-fit: cover;
+}
