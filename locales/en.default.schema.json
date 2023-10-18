@@ -662,7 +662,7 @@
       }
     },
     "collection-list-homepage": {
-      "name": "Collection list (homepage)",
+      "name": "Collection list homepage",
       "settings": {
         "title": {
           "label": "Heading"
@@ -713,7 +713,7 @@
         }
       },
       "presets": {
-        "name": "Collection list (homepage)"
+        "name": "Collection list homepage"
       }
     },
     "contact-form": {
