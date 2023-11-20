@@ -3,6 +3,23 @@
     "c2606e1a-524c-45a8-97df-95692da973bf": {
       "type": "slideshow",
       "blocks": {
+        "deab2423-be14-41ed-af3d-f5c75a75aa6d": {
+          "type": "slide",
+          "settings": {
+            "heading": "Stylish cribs for every nursery",
+            "heading_size": "h2",
+            "subheading": "Start designing your nursery",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/collections\/cribs",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "template--20502729752888__c2606e1a-524c-45a8-97df-95692da973bf-slide-1": {
           "type": "slide",
           "settings": {
@@ -77,6 +94,7 @@
         }
       },
       "block_order": [
+        "deab2423-be14-41ed-af3d-f5c75a75aa6d",
         "template--20502729752888__c2606e1a-524c-45a8-97df-95692da973bf-slide-1",
         "template--20502729752888__c2606e1a-524c-45a8-97df-95692da973bf-slide-2",
         "7f30fd13-405c-4c98-aff2-2289a62a4904",
@@ -148,7 +166,7 @@
         "h2 {width: 100%; text-align: center;}",
         ".card-wrapper {padding: 0.75rem;}",
         ".card__inner {background-color: transparent;}",
-        ".card__media .media {border-radius: 50%; border: 1px solid #9CC5C9;}",
+        ".card__media .media {border-radius: 50%; border: 1px solid #9cc5c9;}",
         ".card__heading {text-align: center; font-size: 1.25rem;}",
         ".card__heading .icon-wrap {display: none;}",
         ".card--media {padding-top: 36%; background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0782\/4392\/2232\/files\/collection-list-item-background.png?v=1695951623); background-size: 96%; background-repeat: no-repeat; background-position: 2px 6px;}"
