@@ -22,6 +22,11 @@
             "text_style": "subtitle"
           }
         },
+        "8cb20c26-947c-4c1d-bae2-c02344a3f43b": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -93,6 +98,7 @@
         "vendor",
         "title",
         "caption",
+        "8cb20c26-947c-4c1d-bae2-c02344a3f43b",
         "price",
         "variant_picker",
         "quantity_selector",
