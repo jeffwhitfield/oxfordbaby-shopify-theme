@@ -45,9 +45,14 @@
   position: relative;
   box-sizing: border-box;
   border-radius: var(--border-radius);
-  border: var(--border-width) solid rgba(var(--color-foreground), var(--border-opacity));
+//  border: var(--border-width) solid rgba(var(--color-foreground), var(--border-opacity));
+  border: 1px solid #ececec;
+  border-radius: 8px;
+  padding: 2px;
 }
-
+.card__inner {
+  border-radius: 8px !important;
+}
 .card--card:after,
 .card--standard .card__inner:after {
   content: '';
