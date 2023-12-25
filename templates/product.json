@@ -162,18 +162,6 @@
     },
     "1703473964ab4556b8": {
       "type": "apps",
-      "blocks": {
-        "d1e6b237-dfe6-4491-817c-8f0767a906ac": {
-          "type": "shopify:\/\/apps\/glo-related-products-upsell\/blocks\/app-block-product\/75cf2d86-3988-45e7-8f28-ada23c99704f",
-          "settings": {
-            "widget": "3",
-            "gashortcode": "<div class=\"globo_widget_13650\"><\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "d1e6b237-dfe6-4491-817c-8f0767a906ac"
-      ],
       "settings": {
         "include_margins": true
       }
