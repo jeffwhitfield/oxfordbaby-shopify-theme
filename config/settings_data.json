@@ -2,6 +2,7 @@
   "current": {
     "logo": "shopify:\/\/shop_images\/Oxford-BK-with-R-Final.png",
     "logo_width": 180,
+    "favicon": "shopify:\/\/shop_images\/favicon-32x32.png",
     "type_header_font": "assistant_n4",
     "heading_scale": 110,
     "type_body_font": "assistant_n4",
@@ -112,6 +113,8 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Oxford-BK-with-R-Final.png",
+    "checkout_logo_size": "large",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
