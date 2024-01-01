@@ -245,6 +245,22 @@
                           </a>
                         </p>
                       {%- endif -%}
+                    {%- elsif block.settings.heading == 'Item Details' -%}
+                      {%- if product.metafields.custom.assembled_dimensions -%}
+                        <p>Assembled Dimensions: {{ product.metafields.custom.assembled_dimensions.value }}</p>
+                      {%- endif -%}
+                      {%- if product.metafields.custom.assembled_weight -%}
+                        <p>Assembled Weight: {{ product.metafields.custom.assembled_weight.value }} lb.</p>
+                      {%- endif -%}
+                      {%- if product.metafields.custom.dimensions -%}
+                        <p>
+                          Carton Dimensions:
+                          {{- product.metafields.custom.dimensions.value }}
+                        </p>
+                      {%- endif -%}
+                      {%- if product.metafields.custom.carton_weight -%}
+                        <p>Carton Weight:{{ product.metafields.custom.carton_weight.value }} lb.</p>
+                      {%- endif -%}
                     {%- else -%}
                       {{ block.settings.content }}
                       {{ block.settings.page.content }}
