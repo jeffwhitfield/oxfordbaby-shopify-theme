@@ -17,8 +17,8 @@
         role="list"
         aria-label="{{ 'general.slider.name' | t }}"
       >
-        {% for related in collections.all.products %}
-          {% for collection in related.collections %}
+        {% for collection in collections %}
+          {% for related in collection.products %}
             {% if collection.title == current_collection and product.title != related.title %}
               <li
                 id="Slide-{{ section.id }}-{{ forloop.index }}"
