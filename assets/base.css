@@ -3676,3 +3676,6 @@ details-disclosure > details {
 .collection-list-homepage .card__media .media img {
   object-fit: cover;
 }
+.collection-list-homepage .card__inner {
+  border: none !important;
+}
