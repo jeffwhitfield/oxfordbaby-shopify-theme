@@ -3679,3 +3679,6 @@ details-disclosure > details {
 .collection-list-homepage .card__inner {
   border: none !important;
 }
+.image-with-text__media {
+  border: none;
+}
