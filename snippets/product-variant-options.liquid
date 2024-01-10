@@ -61,7 +61,7 @@
     >
 
     <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
-      {% if value != 'Standard' and value != 'Default' %}
+      {% if value != 'Standard' and value != 'Default' and value != 'Default Title' %}
         <span class="swatch">
           <img
             src="https://oxfordbabyandkids.com/assets/Swatches/{{ value | downcase | replace: ' ', '-' }}.png"
