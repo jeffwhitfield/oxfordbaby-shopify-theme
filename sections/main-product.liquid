@@ -98,6 +98,7 @@
               </div>
             {%- when 'price' -%}
               {%- if product.metafields.custom.retailer_exclusive_url -%}
+                <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
               {%- else -%}
                 <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                   {%- render 'price',
