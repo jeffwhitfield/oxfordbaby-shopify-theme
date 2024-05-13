@@ -98,9 +98,6 @@
               </div>
             {%- when 'price' -%}
               {%- if product.metafields.custom.retailer_exclusive_url -%}
-                {%- form 'product', product, id: product_form_installment_id, class: 'installment caption-large' -%}
-                  <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
-                {% endform %}
               {%- else -%}
                 <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                   {%- render 'price',
@@ -802,7 +799,7 @@
         '.product-form__noscript-wrapper-{{ section.id }}'
       ).textContent;
       variantSwitcher.outerHTML = noScriptInputWrapper.outerHTML;
-      console.log("#variant",document.querySelector('#Variants-{{ section.id }}'));
+
       document.querySelector('#Variants-{{ section.id }}').addEventListener('change', function (event) {
         hiddenInput.value = event.currentTarget.value;
       });
