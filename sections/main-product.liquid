@@ -800,7 +800,7 @@
         '.product-form__noscript-wrapper-{{ section.id }}'
       ).textContent;
       variantSwitcher.outerHTML = noScriptInputWrapper.outerHTML;
-
+      console.log("#variant",document.querySelector('#Variants-{{ section.id }}'));
       document.querySelector('#Variants-{{ section.id }}').addEventListener('change', function (event) {
         hiddenInput.value = event.currentTarget.value;
       });
