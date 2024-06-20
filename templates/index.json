@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "c2606e1a-524c-45a8-97df-95692da973bf": {
@@ -7,9 +16,9 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Home_Page_Main_Photo_Oxford.jpg",
-            "heading": "Summer Savings Sale - Up to 40% off!",
+            "heading": "Stylish sets for every nursery",
             "heading_size": "h2",
-            "subheading": "Offer ends June 30, 2024",
+            "subheading": "Start designing your dream nursery",
             "button_label": "Shop Now",
             "link": "shopify:\/\/collections\/cribs",
             "button_style_secondary": false,
