@@ -18,6 +18,9 @@
     },
     "custom_liquid_F7XLhE": {
       "type": "custom-liquid",
+      "custom_css": [
+        ".featured-sites__parade {display: flex;}"
+      ],
       "settings": {
         "custom_liquid": "{% render 'featured-sites' %}",
         "color_scheme": "",
