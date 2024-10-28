@@ -19,7 +19,7 @@
     "custom_liquid_F7XLhE": {
       "type": "custom-liquid",
       "custom_css": [
-        ".featured-sites__parade {display: flex; flex-wrap: wrap;}",
+        ".featured-sites__parade {display: flex; flex-wrap: wrap; justify-content: center;}",
         ".featured-sites__parade-item {width: calc(100% / 6);}"
       ],
       "settings": {
