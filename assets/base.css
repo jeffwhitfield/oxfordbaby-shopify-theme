@@ -3707,14 +3707,14 @@ details-disclosure > details {
   width: 100%;
 }
 
-@media screen and (max-width: 749px) {
-  .featured-sites__parade-item {
-    width: calc(100% / 2);
-  }
-}
 @media screen and (min-width: 750px) and (max-width: 989px) {
   .featured-sites__parade-item {
     width: calc(100% / 3);
   }
 
+}
+@media screen and (max-width: 749px) {
+  .featured-sites__parade-item {
+    width: calc(100% / 2);
+  }
 }
