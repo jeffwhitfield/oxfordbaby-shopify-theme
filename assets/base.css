@@ -3706,6 +3706,12 @@ details-disclosure > details {
 .featured-sites__parade-logo img {
   width: 100%;
 }
+@media screen and (min-width: 1220px) and (max-width: 1439px) {
+  .featured-sites__parade-item {
+    width: calc(100% / 5);
+  }
+}
+
 @media screen and (min-width: 990px) and (max-width: 1219px) {
   .featured-sites__parade-item {
     width: calc(100% / 4);
