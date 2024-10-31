@@ -3706,7 +3706,11 @@ details-disclosure > details {
 .featured-sites__parade-logo img {
   width: 100%;
 }
-
+@media screen and (min-width: 990px) and (max-width: 1219px) {
+  .featured-sites__parade-item {
+    width: calc(100% / 4);
+  }
+}
 @media screen and (min-width: 750px) and (max-width: 989px) {
   .featured-sites__parade-item {
     width: calc(100% / 3);
@@ -3716,10 +3720,5 @@ details-disclosure > details {
 @media screen and (max-width: 749px) {
   .featured-sites__parade-item {
     width: calc(100% / 2);
-  }
-}
-@media screen and (max-width: 989px) {
-  .featured-sites__parade-item {
-    width: calc(100% / 4);
   }
 }
