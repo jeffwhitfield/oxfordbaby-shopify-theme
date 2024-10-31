@@ -3718,3 +3718,8 @@ details-disclosure > details {
     width: calc(100% / 2);
   }
 }
+@media screen and (max-width: 989px) {
+  .featured-sites__parade-item {
+    width: calc(100% / 4);
+  }
+}
