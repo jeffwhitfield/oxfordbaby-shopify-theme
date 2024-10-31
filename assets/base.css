@@ -3703,6 +3703,6 @@ details-disclosure > details {
   display: flex;
   align-items: center;
 }
-.featured-sites__parade-logo svg {
+.featured-sites__parade-logo img {
   width: 100%;
 }
