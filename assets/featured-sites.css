@@ -1,0 +1,20 @@
+.featured-sites h2 {
+  text-align: center;
+}
+.featured-sites__parade {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.featured-sites__parade-item {
+  width: calc(100% / 6);
+  padding: 1.5rem 1rem;
+}
+.featured-sites__parade-logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.featured-sites__parade-logo svg {
+  width: 100%;
+}
