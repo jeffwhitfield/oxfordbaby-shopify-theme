@@ -23,9 +23,8 @@
         },
         "announcement_Fki6Hr": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "Halloween Sale Ends October 31, 2024!",
+            "text": "Fall Sale Ends November 15, 2024!",
             "link": ""
           }
         }
