@@ -286,6 +286,15 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "custom_liquid_icLCPA": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render 'featured-sites' %}",
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
     }
   },
   "order": [
@@ -294,6 +303,7 @@
     "4d8bc98f-e4bc-45af-9981-601d1c659935",
     "d82e94c2-585d-4077-b40a-31c163176a87",
     "f5a0b836-31df-4688-b79b-4e9be9ee4f49",
-    "172929224007d3f487"
+    "172929224007d3f487",
+    "custom_liquid_icLCPA"
   ]
 }
