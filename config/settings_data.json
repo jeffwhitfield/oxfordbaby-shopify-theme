@@ -1,17 +1,17 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/Oxford-BK-with-R-Final.png",
+    "logo": "shopify://shop_images/Oxford-BK-with-R-Final.png",
     "logo_width": 180,
-    "favicon": "shopify:\/\/shop_images\/favicon-32x32.png",
+    "favicon": "shopify://shop_images/favicon-32x32.png",
     "type_header_font": "assistant_n4",
     "heading_scale": 110,
     "type_body_font": "assistant_n4",
@@ -105,13 +105,13 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
-    "social_facebook_link": "https:\/\/www.facebook.com\/OxfordBabyandkids\/",
-    "social_instagram_link": "https:\/\/www.instagram.com\/oxfordbabyfurniture\/",
+    "social_facebook_link": "https://www.facebook.com/OxfordBabyandkids/",
+    "social_instagram_link": "https://www.instagram.com/oxfordbabyfurniture/",
     "social_youtube_link": "",
     "social_tiktok_link": "",
     "social_twitter_link": "",
     "social_snapchat_link": "",
-    "social_pinterest_link": "https:\/\/www.pinterest.com\/OxfordBabyandKids\/",
+    "social_pinterest_link": "https://www.pinterest.com/OxfordBabyandKids/",
     "social_tumblr_link": "",
     "social_vimeo_link": "",
     "predictive_search_enabled": true,
@@ -122,7 +122,7 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
-    "checkout_logo_image": "shopify:\/\/shop_images\/Oxford-BK-with-R-Final.png",
+    "checkout_logo_image": "shopify://shop_images/Oxford-BK-with-R-Final.png",
     "checkout_logo_size": "large",
     "sections": {
       "main-password-header": {
@@ -138,12 +138,10 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "1519107564253711417": {
-        "type": "shopify:\/\/apps\/vimg-multiple-variant-images\/blocks\/app.embeded\/3fcfc3bb-b4e3-44bd-9ff9-3d525461bb38",
+        "type": "shopify://apps/vimg-multiple-variant-images/blocks/app.embeded/3fcfc3bb-b4e3-44bd-9ff9-3d525461bb38",
         "disabled": false,
         "settings": {
           "selected_theme": "dawn",
@@ -152,37 +150,32 @@
         }
       },
       "5061257265103808445": {
-        "type": "shopify:\/\/apps\/ez-term-and-condition-checkbox\/blocks\/embed-block\/471882a9-9b1b-4918-8943-6c66b60c94ea",
+        "type": "shopify://apps/ez-term-and-condition-checkbox/blocks/embed-block/471882a9-9b1b-4918-8943-6c66b60c94ea",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "18408366429334172745": {
-        "type": "shopify:\/\/apps\/pop-convert-pop-ups-banners\/blocks\/app-embed\/ed587aec-4936-43ae-a1b3-1c9e0d08f185",
+        "type": "shopify://apps/pop-convert-pop-ups-banners/blocks/app-embed/ed587aec-4936-43ae-a1b3-1c9e0d08f185",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "5294968793578418440": {
-        "type": "shopify:\/\/apps\/king-product-options-variant\/blocks\/app-embed\/ce104259-52b1-4720-9ecf-76b34cae0401",
+        "type": "shopify://apps/king-product-options-variant/blocks/app-embed/ce104259-52b1-4720-9ecf-76b34cae0401",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "6143736321357441667": {
-        "type": "shopify:\/\/apps\/tidio-live-chat-chatbots\/blocks\/app-embed\/1002274d-fb18-4939-98f6-5f05a8deeadc",
+        "type": "shopify://apps/tidio-live-chat-chatbots/blocks/app-embed/1002274d-fb18-4939-98f6-5f05a8deeadc",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "9508235472506026167": {
-        "type": "shopify:\/\/apps\/sg-notify-me-back-in-stock\/blocks\/notifyme-embed\/149ed091-61ef-46c4-964d-eddbebe30e92",
+        "type": "shopify://apps/sg-notify-me-back-in-stock/blocks/notifyme-embed/149ed091-61ef-46c4-964d-eddbebe30e92",
         "disabled": false,
         "settings": {
           "button_position": "right",
@@ -203,6 +196,11 @@
           "side_class": "ptpl_sidebtn_look",
           "ptpl_sideform": "ptpl_sideform_look"
         }
+      },
+      "7147999719060634790": {
+        "type": "shopify://apps/gsc-countdown-timer/blocks/countdown-bar/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
