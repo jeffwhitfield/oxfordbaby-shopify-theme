@@ -3728,3 +3728,8 @@ details-disclosure > details {
     width: calc(100% / 2);
   }
 }
+
+.color-accent-3 {
+  background-color: #b61b1c;
+  color: #ffffff;
+}
