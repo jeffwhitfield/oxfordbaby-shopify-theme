@@ -206,6 +206,11 @@
         "type": "shopify://apps/blocky-fraud-blocker/blocks/app-embed/aa25b3bf-c2c5-4359-aa61-7836c225c5a9",
         "disabled": false,
         "settings": {}
+      },
+      "17868608759297828592": {
+        "type": "shopify://apps/chimpify-email-capture-popup/blocks/main/f0766e33-ab72-4dec-8795-04b6f1ca9fae",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
