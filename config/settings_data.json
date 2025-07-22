@@ -207,8 +207,8 @@
         "disabled": false,
         "settings": {}
       },
-      "17868608759297828592": {
-        "type": "shopify://apps/chimpify-email-capture-popup/blocks/main/f0766e33-ab72-4dec-8795-04b6f1ca9fae",
+      "18131037017812181619": {
+        "type": "shopify://apps/mailchimp-email-sms/blocks/mailchimp_for_shopify_script/e3b67dce-fd41-4b61-b3cf-961c12344cde",
         "disabled": false,
         "settings": {}
       }
