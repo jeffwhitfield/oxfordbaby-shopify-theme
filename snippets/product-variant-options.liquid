@@ -59,10 +59,6 @@
         class="disabled"
       {% endif %}
     >
-<script type="application/json">
-{{ option.metafields | json }}
-</script>
-
     <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
       {% if value != 'Standard' and value != 'Default' and value != 'Default Title' %}
         <span class="swatch">
