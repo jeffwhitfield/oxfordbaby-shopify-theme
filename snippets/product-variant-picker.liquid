@@ -62,7 +62,7 @@
       {%- endfor -%}
 
       <script type="application/json">
-        {{ product.variants.metafields | json }}
+        {{ product.variants.metafields.custom | json }}
       </script>
     </variant-selects>
   {%- endif -%}
