@@ -28,7 +28,7 @@
         </fieldset>
       {%- endfor -%}
       <script type="application/json">
-        {{ product.variants | json }}
+        {{ product.variants.metafields | json }}
       </script>
     </variant-radios>
   {%- else -%}
@@ -62,7 +62,6 @@
       {%- endfor -%}
 
       <script type="application/json">
-        // Product Variants
         {{ product.variants | json }}
       </script>
     </variant-selects>
