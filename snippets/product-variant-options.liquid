@@ -25,7 +25,9 @@
 -%}
 <script type="application/json">
 // Product Variants
-  {{ product.variants[0].metafields.finishes.label }}
+{%- for variant in product.variants -%}
+  {{ variants.metafields.finishes.label }}
+{%- endfor -%}
 </script>
 {%- for value in option.values -%}
   {%- liquid
