@@ -27,8 +27,7 @@
 // Product Variants
 {%- for variant in product.variants -%}
   {% for metaobject in variant.metafields.finish.values %}
-    {{ metaobject.field }}
-    {{ metaobject.field.value }}
+    {{ metaobject || json }}
   {% endfor %}
 {%- endfor -%}
 </script>
