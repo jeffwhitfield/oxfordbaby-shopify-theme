@@ -81,6 +81,10 @@
         form="{{ product_form_id }}"
       >
         {%- for variant in product.variants -%}
+<script type="application/json">
+  // variant metafields
+  {{ variant.metafields.finishes }}
+</script>
           <option
             {% if variant == product.selected_or_first_available_variant %}
               selected="selected"
