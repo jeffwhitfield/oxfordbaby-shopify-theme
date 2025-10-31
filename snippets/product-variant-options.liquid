@@ -26,9 +26,7 @@
 <script type="application/json">
 // Product Variants
 {%- for variant in product.variants -%}
-  {% for metaobject in variant.metafields %}
-    {{ metaobject | json }}
-  {% endfor %}
+    {{ variant.metafields | json }}
 {%- endfor -%}
 </script>
 {%- for value in option.values -%}
