@@ -59,10 +59,14 @@
         class="disabled"
       {% endif %}
     >
+<script type="application/json">
+// Variant Data
+{{ product | json }}
+</script>
 
     <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
       {% if value != 'Standard' and value != 'Default' and value != 'Default Title' %}
-        <span class="swatch" data-variant-swatch="{{ option | json }}">
+        <span class="swatch">
           <img
             src="https://assets.oxfordbabyandkids.com/assets/Swatches/{{ value | downcase | replace: ' ', '-' }}.png"
             alt="{{ value -}}"
