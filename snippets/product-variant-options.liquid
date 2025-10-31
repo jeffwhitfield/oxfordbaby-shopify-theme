@@ -62,7 +62,7 @@
 
     <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
       {% if value != 'Standard' and value != 'Default' and value != 'Default Title' %}
-        <span class="swatch">
+        <span class="swatch" data-variant-swatch="{{ option.metafields.global.finish.label }}">
           <img
             src="https://assets.oxfordbabyandkids.com/assets/Swatches/{{ value | downcase | replace: ' ', '-' }}.png"
             alt="{{ value -}}"
