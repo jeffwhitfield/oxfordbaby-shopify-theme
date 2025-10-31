@@ -24,7 +24,7 @@
 -%}
 <script type="application/json">
 // Variants
-{{ option.metafields | json }}
+{{ option.metafields.custom.finish | json }}
 </script>
 {%- for value in option.values -%}
   {%- liquid
