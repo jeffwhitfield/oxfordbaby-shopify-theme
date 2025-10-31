@@ -24,8 +24,9 @@
   assign product_form_id = 'product-form-' | append: section.id
 -%}
 <script type="application/json">
-        {{ product.variants | json }}
-      </script>
+// Product Variants
+  {{ product.variants | json }}
+</script>
 {%- for value in option.values -%}
   {%- liquid
     assign option_disabled = true
