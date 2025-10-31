@@ -26,7 +26,10 @@
 <script type="application/json">
 // Product Variants
 {%- for variant in product.variants -%}
-  {{ variant.metafields.custom.finish.key }}
+  {% for metaobject in variant.metafields.finish.values %}
+    {{ metaobject.field }}
+    {{ metaobject.field.value }}
+  {% endfor %}
 {%- endfor -%}
 </script>
 {%- for value in option.values -%}
