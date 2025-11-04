@@ -3737,27 +3737,33 @@ details-disclosure > details {
 /************
 04-11-2025
 ************/
-form.pushowl-optin-container {}
 
-form.pushowl-optin-container > div {}
 
-form.pushowl-optin-container > div {}
 
-form.pushowl-optin-container > button + div {}
+form.pushowl-optin-container > div {
+  text-transform: none;
+}
 
-form.pushowl-optin-container {}
+form.pushowl-optin-container > button + div {
+  text-transform: none;
+}
 
-form.pushowl-optin-container > button.pushowl-optin-dismiss-button {}
+form.pushowl-optin-container {
+  text-transform: none;
+}
+
+form.pushowl-optin-container > button.pushowl-optin-dismiss-button {
+  text-transform: none;
+}
 
 
 
 form.pushowl-optin-container > div > div + div {
-
+text-transform: none;
 }
 
 form.pushowl-optin-container div  div div {
-
-    
+text-transform: none;
 }
 
 
@@ -3765,13 +3771,19 @@ form.pushowl-optin-container > button.pushowl-optin-dismiss-button {
 
 }
 
-div#pushowl-shadow-host {}
-
-div#pushowl-shadow-host form.pushowl-optin-container{}
-
-div#pushowl-shadow-host form {
-
+div#pushowl-shadow-host {
+  text-transform: none;
 }
 
-form.pushowl-optin-container {}
+div#pushowl-shadow-host form.pushowl-optin-container{
+  text-transform: none;
+}
+
+div#pushowl-shadow-host form {
+  text-transform: none;
+}
+
+form.pushowl-optin-container {
+  text-transform: none;
+}
 
