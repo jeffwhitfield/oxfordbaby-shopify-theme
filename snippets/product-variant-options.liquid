@@ -23,12 +23,18 @@
 
   assign product_form_id = 'product-form-' | append: section.id
 -%}
+{% comment %}
 <script type="application/json">
 // Product Variants
 {%- for variant in product.variants -%}
     {{ variant.metafields.finish | json }}
 {%- endfor -%}
 </script>
+{% endcomment %}
+<script type="application/json">
+  {{ product.variants | json }}
+</script>
+
 {%- for value in option.values -%}
   {%- liquid
     assign option_disabled = true
