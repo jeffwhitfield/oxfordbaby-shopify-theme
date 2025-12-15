@@ -34,8 +34,8 @@
 <script type="application/json">
   {{ product.variants | json }}
   // Finish
-{% assign my_metaobject = product.selected_or_first_available_variant.metafields.custom.finish.image | image_url: width: 200 %}
-  {{ my_metaobject.label }}
+{% assign my_metaobject = product.selected_or_first_available_variant.metafields.custom.finish.value %}
+  {{ my_metaobject.image | image_url }}
 </script>
 
 {%- for value in option.values -%}
