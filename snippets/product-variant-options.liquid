@@ -33,7 +33,7 @@
 {% endcomment %}
 <script type="application/json">
   {{ product.variants | json }}
-  {{ product.selected_or_first_available_variant.metafields.custom.finishes }}
+  {{ product.selected_or_first_available_variant.metafields.custom.finish }}
 </script>
 
 {%- for value in option.values -%}
