@@ -34,7 +34,8 @@
 <script type="application/json">
   {{ product.variants | json }}
   // Finish
-  {{ product.metafields.custom.finish.value.label }}
+{% assign my_metaobject = variant.metafields.custom.finish.value %}
+  {{ my_metaobject.label }}
 </script>
 
 {%- for value in option.values -%}
