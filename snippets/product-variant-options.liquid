@@ -73,7 +73,7 @@
     >
     <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
       {% if value != 'Standard' and value != 'Default' and value != 'Default Title' %}
-        {% assign swatch = product.selected_variant.metafields.custom.finish.value %}
+        {% assign swatch = product.selected_or_first_available_variant.metafields.custom.finish.value %}
         <span class="swatch">
           <!-- New Swatch image
           <img
