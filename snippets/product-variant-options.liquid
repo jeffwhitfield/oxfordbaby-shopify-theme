@@ -75,10 +75,12 @@
       {% if value != 'Standard' and value != 'Default' and value != 'Default Title' %}
         {% assign swatch = product.selected_variant.metafields.custom.finish.value %}
         <span class="swatch">
-          {% comment %} <img
+          <!-- New Swatch image
+          <img
             src="{{ swatch.image | image_url }}"
             alt="{{ swatch.label -}}"
-          > {% endcomment %}
+          >
+        -->
           <img
             src="https://assets.oxfordbabyandkids.com/assets/Swatches/{{ value | downcase | replace: ' ', '-' }}.png"
             alt="{{ value -}}"
