@@ -32,7 +32,7 @@
 </script>
 {% endcomment %}
 <script type="application/json">
-  {{ product.options.metafields.custom.finishes | json }}
+  {{ product.options.metafields.finish.values | json }}
 </script>
 
 {%- for value in option.values -%}
