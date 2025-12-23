@@ -31,8 +31,9 @@
 {%- endfor -%}
 </script>
 {% endcomment %}
+ {% assign current_finish = product.metafields.custom.finish.value %}
 <script type="application/json">
-  {{ product.metafields.finish.values | json }}
+  {{ current_finish.label | json }}
 </script>
 
 {%- for value in option.values -%}
