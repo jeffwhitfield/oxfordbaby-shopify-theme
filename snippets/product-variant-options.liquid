@@ -31,17 +31,10 @@
 {%- endfor -%}
 </script>
 {% endcomment %}
-<script>
-  // Finishes
-  {% for finish in metaobjects.finishes.values %}
-    - {{ finish.label.value }}
-    
-  {% endfor %}
-</script>
-
 {%- for value in option.values -%}
   {%- liquid
     assign option_disabled = true
+    assign finish = metaobjects.finishes | where: 'values.label', value
 
     for option1_name in variants_option1_arr
       case option.position
@@ -60,6 +53,10 @@
       endcase
     endfor
   -%}
+<script>
+  // Finish
+    - {{ finish.label.value }}    
+</script>
 
   {%- if block.settings.picker_type == 'button' -%}
     <input
