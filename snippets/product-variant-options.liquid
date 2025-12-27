@@ -73,10 +73,9 @@
           {% if swatch.label == value %}
           <img
             src="{{ swatch.image | image_url }}"
-            alt="{{ swatch.label -}}"
+            alt="{{ swatch.label -}}">
           {% endif %}
           {%- endfor -%}
-          >
           <!-- New Swatch image
           <img
             src="https://assets.oxfordbabyandkids.com/assets/Swatches/{{ value | downcase | replace: ' ', '-' }}.png"
