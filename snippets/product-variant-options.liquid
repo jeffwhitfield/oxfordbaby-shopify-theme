@@ -71,6 +71,7 @@
         <span class="swatch">
           <!-- New Swatch image
           {% for swatch in metaobjects.finishes.values %}
+           {{  swatch | json }}
           {% if swatch.label == value %}
           <img
             src="{{ swatch.image | image_url }}"
