@@ -69,7 +69,6 @@
     <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
       {% if value != 'Standard' and value != 'Default' and value != 'Default Title' %}        
         <span class="swatch">
-          <!-- New Swatch image
           {% for swatch in metaobjects.finishes.values %}
           {% if swatch.label == value %}
           <img
@@ -78,11 +77,12 @@
           {% endif %}
           {%- endfor -%}
           >
-        -->
+          <!-- New Swatch image
           <img
             src="https://assets.oxfordbabyandkids.com/assets/Swatches/{{ value | downcase | replace: ' ', '-' }}.png"
             alt="{{ value -}}"
           >
+        -->
         </span>
         <span class="swatch-value">{{ value -}}</span>
       {% else %}
