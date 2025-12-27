@@ -31,10 +31,9 @@
 {%- endfor -%}
 </script>
 {% endcomment %}
- {% assign finishes = metaobjects.finishes %}
 <script>
   // Finishes
-  {% for finish in finishes %}
+  {% for finish in metaobjects.finishes.values %}
     - {{ finish.label.value }}
     
   {% endfor %}
