@@ -68,13 +68,15 @@
     >
     <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
       {% if value != 'Standard' and value != 'Default' and value != 'Default Title' %}        
-        {% assign swatch = metaobjects.finishes.values %}
         <span class="swatch">
           <!-- New Swatch image
-          {{  swatch | json }}
+          {% for swatch in metaobjects.finishes.values %}
+          {% if swatch.label == value %}
           <img
             src="{{ swatch.image | image_url }}"
             alt="{{ swatch.label -}}"
+          {% endif %}
+          {%- endfor -%}
           >
         -->
           <img
