@@ -32,8 +32,12 @@
 </script>
 {% endcomment %}
  {% assign finishes = metaobjects.finishes %}
-<script type="application/json">
-  {{ finishes | json }}
+<script>
+  // Finishes
+  {% for finish in finishes %}
+    - {{ finish.label.value }}
+    
+  {% endfor %}
 </script>
 
 {%- for value in option.values -%}
