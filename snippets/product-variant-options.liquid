@@ -31,8 +31,9 @@
 {%- endfor -%}
 </script>
 {% endcomment %}
+ {% assign finishes = metaobjects.finishes %}
 <script type="application/json">
-  {{ metaobjects.finishes | json }}
+  {{ finishes | json }}
 </script>
 
 {%- for value in option.values -%}
