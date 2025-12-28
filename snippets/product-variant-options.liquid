@@ -69,15 +69,9 @@
     <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
       {% if value != 'Standard' and value != 'Default' and value != 'Default Title' %}        
         <span class="swatch">
-          <script>
-            {% paginate shop.metaobjects.finishes.values by 250 %}
-            {% assign finishes = shop.metaobjects.finishes.values %}
-
-
-            {{  finishes | json }}
-            {% endpaginate %}
-          </script>
-          {% for swatch in metaobjects.finishes.values %}
+          {% paginate shop.metaobjects.finishes.values by 250 %}
+          {% assign finishes = shop.metaobjects.finishes.values %}
+          {% for swatch in finishes %}
           {% if swatch.label == value %}
           <!-- New Swatch image
           <img
@@ -89,6 +83,7 @@
           <img
             src="https://assets.oxfordbabyandkids.com/assets/Swatches/{{ value | downcase | replace: ' ', '-' }}.png"
             alt="{{ value }}">
+          {% endpaginate %}
         </span>
         <span class="swatch-value">{{ value -}}</span>
       {% else %}
