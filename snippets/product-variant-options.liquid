@@ -73,16 +73,16 @@
           {% assign finishes = shop.metaobjects.finishes.values %}
           {% for swatch in finishes %}
           {% if swatch.label == value %}
-          <!-- New Swatch image
           <img
             src="{{ swatch.image | image_url }}"
             alt="{{ swatch.label -}}">
-``        -->
           {% endif %}
           {%- endfor -%}
+          <!-- Old Swatch image
           <img
             src="https://assets.oxfordbabyandkids.com/assets/Swatches/{{ value | downcase | replace: ' ', '-' }}.png"
             alt="{{ value }}">
+``        -->
           {% endpaginate %}
         </span>
         <span class="swatch-value">{{ value -}}</span>
