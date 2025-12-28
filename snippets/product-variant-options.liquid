@@ -70,7 +70,12 @@
       {% if value != 'Standard' and value != 'Default' and value != 'Default Title' %}        
         <span class="swatch">
           <script>
-            {{  metaobjects.finishes.values | json }}
+            {% paginate shop.metaobjects.finishes.values by 250 %}
+            {% assign finishes = shop.metaobjects.finishes.values %}
+
+
+            {{  finishes | json }}
+            {% endpaginate %}
           </script>
           {% for swatch in metaobjects.finishes.values %}
           {% if swatch.label == value %}
