@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -12,8 +21,7 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "caption": {
           "type": "text",
@@ -23,14 +31,12 @@
           }
         },
         "8cb20c26-947c-4c1d-bae2-c02344a3f43b": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -40,8 +46,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -52,15 +57,14 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
-            "content": "<p>For information on shipping and returns, please review our <a href=\"\/pages\/customer-support\" title=\"Customer Service Policies\">Customer Service Policies<\/a><\/p>",
+            "content": "<p>For information on shipping and returns, please review our <a href=\"/pages/customer-support\" title=\"Customer Service Policies\">Customer Service Policies</a></p>",
             "page": ""
           }
         },
@@ -69,7 +73,7 @@
           "settings": {
             "heading": "Item Details",
             "icon": "ruler",
-            "content": "<p><strong>Assembled Dimensions: <br\/><\/strong>{{ product.metafields.custom.assembled_dimensions.value }}<\/p><p><strong>Assembled Weight: <br\/><\/strong>{{ product.metafields.custom.assembled_weight.value }} lb.<\/p><p><strong>Carton Dimensions:<br\/><\/strong>{{ product.metafields.custom.dimensions.value }}<\/p><p><strong>Carton Weight:<br\/><\/strong>{{ product.metafields.custom.carton_weight.value }} lb.<\/p>",
+            "content": "<p><strong>Assembled Dimensions: <br/></strong>{{ product.metafields.custom.assembled_dimensions.value }}</p><p><strong>Assembled Weight: <br/></strong>{{ product.metafields.custom.assembled_weight.value }} lb.</p><p><strong>Carton Dimensions:<br/></strong>{{ product.metafields.custom.dimensions.value }}</p><p><strong>Carton Weight:<br/></strong>{{ product.metafields.custom.carton_weight.value }} lb.</p>",
             "page": ""
           }
         },
@@ -89,9 +93,8 @@
           }
         },
         "160dcf79-16a5-46c8-9555-44d3b9ebdece": {
-          "type": "shopify:\/\/apps\/vimg-multiple-variant-images\/blocks\/app.block\/3fcfc3bb-b4e3-44bd-9ff9-3d525461bb38",
-          "settings": {
-          }
+          "type": "shopify://apps/vimg-multiple-variant-images/blocks/app.block/3fcfc3bb-b4e3-44bd-9ff9-3d525461bb38",
+          "settings": {}
         }
       },
       "block_order": [
@@ -129,8 +132,12 @@
       "type": "apps",
       "blocks": {
         "d51aec0e-0217-4bd9-902f-df37dd355f54": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
           }
         }
       },
