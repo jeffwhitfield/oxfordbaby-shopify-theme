@@ -252,7 +252,7 @@ function checkUpsellProducts() {
     .then(res => res.json())
     .then(cart => {
 
-      let triggerHandle = "product-a-handle";
+      let triggerHandle = "london-lane-4-in-1-convertible-crib";
       let triggerFound = false;
 
       cart.items.forEach(item => {
@@ -269,7 +269,7 @@ function checkUpsellProducts() {
 }
 
 document.addEventListener("click", function(e){
-  if(e.target.closest('[name="minus"], .cart-remove, .quantity__button')){
+  if(e.target.closest('[name="minus"], cart-item__quantity-wrapper button.button.button--tertiary, ..quantity__button')){
       setTimeout(checkUpsellProducts, 500);
   }
 });
