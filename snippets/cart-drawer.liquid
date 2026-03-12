@@ -15,7 +15,47 @@
     visibility: hidden;
   }
 </style>
+{% assign trigger_product = false %}
 
+{% for item in cart.items %}
+  {% if item.product.handle == "london-lane-4-in-1-convertible-crib" %}
+    {% assign trigger_product = true %}
+  {% endif %}
+{% endfor %}
+
+{% if trigger_product %}
+<div class="cart-upsell">
+  <h3>Complete Your Kit</h3>
+
+  <div class="upsell-products">
+    
+    {% assign product1 = all_products['london-lane-guard-rail'] %}
+    <div class="upsell-item">
+      <a href="{{ product1.url }}">
+        <img src="{{ product1.featured_image | img_url: '300x' }}">
+        <p>{{ product1.title }}</p>
+      </a>
+      <form method="post" action="/cart/add">
+        <input type="hidden" name="id" value="{{ product1.variants.first.id }}">
+        <button type="submit">Add to Kit</button>
+      </form>
+    </div>
+
+    {% assign product2 = all_products['london-lane-full-bed-conversion-kit'] %}
+    <div class="upsell-item">
+      <a href="{{ product2.url }}">
+        <img src="{{ product2.featured_image | img_url: '300x' }}">
+        <p>{{ product2.title }}</p>
+      </a>
+      <form method="post" action="/cart/add">
+        <input type="hidden" name="id" value="{{ product2.variants.first.id }}">
+        <button type="submit">Add to Kit</button>
+      </form>
+    </div>
+
+  </div>
+</div>
+{% endif %}
 <cart-drawer class="drawer{% if cart == empty %} is-empty{% endif %}">
   <div id="CartDrawer" class="cart-drawer">
     <div id="CartDrawer-Overlay" class="cart-drawer__overlay"></div>
