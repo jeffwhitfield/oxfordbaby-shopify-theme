@@ -335,5 +335,10 @@
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
     <script src="//code.tidio.co/joebdxle5bi1tidx5m3jyu0zfnccjo65.js" async></script>
+    <script>
+    document.addEventListener('cart:updated', function() {
+      location.reload();
+    });
+    </script>
   </body>
 </html>
