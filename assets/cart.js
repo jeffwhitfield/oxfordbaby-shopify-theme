@@ -270,7 +270,7 @@ function checkUpsellProducts() {
 
 document.addEventListener("click", function(e){
   if(e.target.closest('.cart-item__quantity-wrapper button.button')){
-      setTimeout(checkUpsellProducts, 500);
+      setTimeout(checkUpsellProducts, 5);
   }
 });
 
