@@ -365,15 +365,23 @@
       }
 
 
-      document.addEventListener('click', function(e){
+        /* observe cart drawer changes */
+        const observer = new MutationObserver(function() {
+          checkUpsell();
+        });
 
-      if(
-        e.target.closest('cart-remove-button') ||
-        e.target.closest('.cart-item__remove') ||
-        e.target.closest('.quantity__button')
-      ){
-          setTimeout(checkKitUpsell,100);
-      }
+        document.addEventListener("DOMContentLoaded", function(){
+
+          const cartDrawer = document.querySelector("cart-drawer");
+
+          if(cartDrawer){
+            observer.observe(cartDrawer, {
+              childList: true,
+              subtree: true
+            });
+          }
+
+        });
 
     </script>
 
