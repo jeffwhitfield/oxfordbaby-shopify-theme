@@ -32,7 +32,7 @@
     {% assign product1 = all_products['london-lane-guard-rail'] %}
     <div class="upsell-item">
       <a href="{{ product1.url }}">
-        <img src="{{ product1.featured_image | img_url: '300x' }}">
+        <img width="300" height="300" src="{{ product1.featured_image | img_url: '300x' }}">
         <p>{{ product1.title }}</p>
       </a>
       <form method="post" action="/cart/add">
@@ -44,7 +44,7 @@
     {% assign product2 = all_products['london-lane-full-bed-conversion-kit'] %}
     <div class="upsell-item">
       <a href="{{ product2.url }}">
-        <img src="{{ product2.featured_image | img_url: '300x' }}">
+        <img width="300" height="300" src="{{ product2.featured_image | img_url: '300x' }}">
         <p>{{ product2.title }}</p>
       </a>
       <form method="post" action="/cart/add">
