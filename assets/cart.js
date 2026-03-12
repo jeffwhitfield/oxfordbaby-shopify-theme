@@ -269,7 +269,7 @@ function checkUpsellProducts() {
 }
 
 document.addEventListener("click", function(e){
-  if(e.target.closest('[name="minus"], cart-item__quantity-wrapper button.button.button--tertiary, ..quantity__button')){
+  if(e.target.closest('[name="minus"], .cart-item__quantity-wrapper cart-remove-button button.button.button--tertiary, quantity-input.quantity.cart-quantity button.quantity__button')){
       setTimeout(checkUpsellProducts, 500);
   }
 });
