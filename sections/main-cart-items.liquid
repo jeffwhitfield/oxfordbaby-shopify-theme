@@ -55,38 +55,57 @@
 
   <div class="cart-upsell page-width">
     <div class="title-wrapper-with-link">
-      <h3>Complete Your Kit</h3>
+      <h2 class="title title--primary">Complete Your Kit</h2>
     </div>
-    <div class="upsell-products">
-
-      {% unless product_b_in_cart %}
-      {% assign product1 = all_products['london-lane-guard-rail'] %}
-      <div class="upsell-item">
-        <a href="{{ product1.url }}">
-          <img height="150" width="150" src="{{ product1.featured_image | img_url: '300x' }}">
-          <p>{{ product1.title }}</p>
-        </a>
-        <form method="post" action="/cart/add">
-          <input type="hidden" name="id" value="{{ product1.variants.first.id }}">
-          <button type="submit">Add to Cart</button>
-        </form>
+    <div class="cart__contents upsell-products">
+      <div class="cart__items">
+        <table class="cart-items">
+          <tbody>
+            {% unless product_b_in_cart %}
+            {% assign product1 = all_products['london-lane-guard-rail'] %}
+            <tr class="cart-item">
+              <td class="cart-item__media">
+                <a href="{{ product1.url }}">
+                  <img height="150" width="150" src="{{ product1.featured_image | img_url: '300x' }}">
+                </a>
+              </td>
+              <td class="cart-item__details">
+                <a href="{{ product1.url }}">
+                  <p>{{ product1.title }}</p>
+                </a>
+              </td>
+              <td class="cart-item__quantity">
+                <form method="post" action="/cart/add">
+                  <input type="hidden" name="id" value="{{ product1.variants.first.id }}">
+                  <button type="submit">Add to Cart</button>
+                </form>
+              </td>
+            </tr>
+            {% endunless %}
+            {% unless product_c_in_cart %}
+            {% assign product2 = all_products['london-lane-full-bed-conversion-kit'] %}
+            <tr class="cart-item">
+              <td class="cart-item__media">
+              <a href="{{ product2.url }}">
+                <img height="150" width="150" src="{{ product2.featured_image | img_url: '300x' }}">
+                </a>
+              </td>
+              <td class="cart-item__details">
+                <a href="{{ product2.url }}">
+                  <p>{{ product2.title }}</p>
+                </a>
+              </td>
+              <td class="cart-item__quantity">
+                <form method="post" action="/cart/add">
+                  <input type="hidden" name="id" value="{{ product2.variants.first.id }}">
+                  <button type="submit">Add to Cart</button>
+                </form>
+              </td>
+            </tr>
+            {% endunless %}
+          </tbody>   
+        </table>
       </div>
-      {% endunless %}
-
-      {% unless product_c_in_cart %}
-      {% assign product2 = all_products['london-lane-full-bed-conversion-kit'] %}
-      <div class="upsell-item">
-        <a href="{{ product2.url }}">
-          <img height="150" width="150" src="{{ product2.featured_image | img_url: '300x' }}">
-          <p>{{ product2.title }}</p>
-        </a>
-        <form method="post" action="/cart/add">
-          <input type="hidden" name="id" value="{{ product2.variants.first.id }}">
-          <button type="submit">Add to Cart</button>
-        </form>
-      </div>
-      {% endunless %}
-
     </div>
   </div>
 
