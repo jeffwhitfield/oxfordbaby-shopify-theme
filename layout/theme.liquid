@@ -365,16 +365,20 @@
       }
 
 
-      /* watch cart drawer updates */
-      document.addEventListener('click', function(e){
+      const observer = new MutationObserver(function() {
+        checkUpsell();
+      });
 
-      if(
-        e.target.closest('cart-remove-button a.button') ||
-        e.target.closest('.cart-item__remove') ||
-        e.target.closest('.quantity__button')
-      ){
-          setTimeout(checkKitUpsell,1);
-      }
+      document.addEventListener("DOMContentLoaded", function(){
+
+        const cartDrawer = document.querySelector("cart-drawer");
+
+        if(cartDrawer){
+          observer.observe(cartDrawer, {
+            childList: true,
+            subtree: true
+          });
+        }
 
       });
 
