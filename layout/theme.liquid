@@ -336,9 +336,43 @@
     {%- endif -%}
     <script src="//code.tidio.co/joebdxle5bi1tidx5m3jyu0zfnccjo65.js" async></script>
     <script>
-    document.addEventListener('cart:updated', function() {
-      location.reload();
-    });
+      function checkTriggerProduct() {
+
+      fetch('/cart.js')
+        .then(res => res.json())
+        .then(cart => {
+
+          let triggerHandle = "london-lane-4-in-1-convertible-crib";
+          let found = false;
+
+          cart.items.forEach(function(item){
+            if(item.handle === triggerHandle){
+              found = true;
+            }
+          });
+
+          if(!found){
+              const upsell = document.getElementById("kit-upsell");
+              if(upsell){
+                upsell.remove();
+              }
+          }
+
+        });
+      }
+
+      // detect remove / quantity change
+      document.addEventListener("click", function(e){
+
+      if(
+        e.target.closest('.cart-remove') ||
+        e.target.closest('[name="minus"]') ||
+        e.target.closest('.quantity__button')
+      ){
+        setTimeout(checkTriggerProduct, 500);
+      }
+
+      });
     </script>
   </body>
 </html>
