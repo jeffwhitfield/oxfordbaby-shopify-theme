@@ -369,11 +369,11 @@
       document.addEventListener('click', function(e){
 
       if(
-        e.target.closest('cart-remove-button') ||
+        e.target.closest('cart-remove-button a.button') ||
         e.target.closest('.cart-item__remove') ||
         e.target.closest('.quantity__button')
       ){
-          setTimeout(checkKitUpsell,700);
+          setTimeout(checkKitUpsell,1);
       }
 
       });
