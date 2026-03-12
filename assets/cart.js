@@ -273,3 +273,8 @@ document.addEventListener("click", function(e){
       setTimeout(checkUpsellProducts, 500);
   }
 });
+
+
+document.addEventListener('cart:updated', function() {
+   location.reload();
+});
