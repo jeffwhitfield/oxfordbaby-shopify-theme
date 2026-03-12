@@ -245,36 +245,3 @@ if (!customElements.get('cart-note')) {
   );
 }
 
-
-
-function checkUpsellProducts() {
-  fetch('/cart.js')
-    .then(res => res.json())
-    .then(cart => {
-
-      let triggerHandle = "london-lane-4-in-1-convertible-crib";
-      let triggerFound = false;
-
-      cart.items.forEach(item => {
-        if (item.handle === triggerHandle) {
-          triggerFound = true;
-        }
-      });
-
-      if (!triggerFound) {
-        document.querySelector('.cart-upsell')?.remove();
-      }
-
-    });
-}
-
-document.addEventListener("click", function(e){
-  if(e.target.closest('.cart-item__quantity-wrapper button.button')){
-      setTimeout(checkUpsellProducts, 5);
-  }
-});
-
-
-document.addEventListener('cart:updated', function() {
-   location.reload();
-});
