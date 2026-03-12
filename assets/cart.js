@@ -244,3 +244,32 @@ if (!customElements.get('cart-note')) {
     }
   );
 }
+
+
+
+function checkUpsellProducts() {
+  fetch('/cart.js')
+    .then(res => res.json())
+    .then(cart => {
+
+      let triggerHandle = "product-a-handle";
+      let triggerFound = false;
+
+      cart.items.forEach(item => {
+        if (item.handle === triggerHandle) {
+          triggerFound = true;
+        }
+      });
+
+      if (!triggerFound) {
+        document.querySelector('.cart-upsell')?.remove();
+      }
+
+    });
+}
+
+document.addEventListener("click", function(e){
+  if(e.target.closest('[name="minus"], .cart-remove, .quantity__button')){
+      setTimeout(checkUpsellProducts, 500);
+  }
+});
