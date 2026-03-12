@@ -26,47 +26,76 @@
 
 <script src="{{ 'quantity-popover.js' | asset_url }}" defer="defer"></script>
 
+
+
+
 {% assign trigger_product = false %}
+{% assign product_b_in_cart = false %}
+{% assign product_c_in_cart = false %}
 
 {% for item in cart.items %}
+  
   {% if item.product.handle == "london-lane-4-in-1-convertible-crib" %}
     {% assign trigger_product = true %}
   {% endif %}
+
+  {% if item.product.handle == "london-lane-guard-rail" %}
+    {% assign product_b_in_cart = true %}
+  {% endif %}
+
+  {% if item.product.handle == "product-c-handle" %}
+    {% assign product_c_in_cart = true %}
+  {% endif %}
+
 {% endfor %}
 
 {% if trigger_product %}
-<div class="cart-upsell">
-  <h3>Complete Your Kit</h3>
 
-  <div class="upsell-products">
-    
-    {% assign product1 = all_products['london-lane-guard-rail'] %}
-    <div class="upsell-item">
-      <a href="{{ product1.url }}">
-        <img width="150" height="150" src="{{ product1.featured_image | img_url: '300x' }}">
-        <p>{{ product1.title }}</p>
-      </a>
-      <form method="post" action="/cart/add">
-        <input type="hidden" name="id" value="{{ product1.variants.first.id }}">
-        <button type="submit">Add to Kit</button>
-      </form>
+  {% if product_b_in_cart == false or product_c_in_cart == false %}
+
+  <div class="cart-upsell">
+    <h3>Complete Your Kit</h3>
+    <div class="upsell-products">
+
+      {% unless product_b_in_cart %}
+      {% assign product1 = all_products['product-b-handle'] %}
+      <div class="upsell-item">
+        <a href="{{ product1.url }}">
+          <img src="{{ product1.featured_image | img_url: '300x' }}">
+          <p>{{ product1.title }}</p>
+        </a>
+        <form method="post" action="/cart/add">
+          <input type="hidden" name="id" value="{{ product1.variants.first.id }}">
+          <button type="submit">Add to Cart</button>
+        </form>
+      </div>
+      {% endunless %}
+
+      {% unless product_c_in_cart %}
+      {% assign product2 = all_products['product-c-handle'] %}
+      <div class="upsell-item">
+        <a href="{{ product2.url }}">
+          <img src="{{ product2.featured_image | img_url: '300x' }}">
+          <p>{{ product2.title }}</p>
+        </a>
+        <form method="post" action="/cart/add">
+          <input type="hidden" name="id" value="{{ product2.variants.first.id }}">
+          <button type="submit">Add to Cart</button>
+        </form>
+      </div>
+      {% endunless %}
+
     </div>
-
-    {% assign product2 = all_products['london-lane-full-bed-conversion-kit'] %}
-    <div class="upsell-item">
-      <a href="{{ product2.url }}">
-        <img width="150" height="150" src="{{ product2.featured_image | img_url: '300x' }}">
-        <p>{{ product2.title }}</p>
-      </a>
-      <form method="post" action="/cart/add">
-        <input type="hidden" name="id" value="{{ product2.variants.first.id }}">
-        <button type="submit">Add to Kit</button>
-      </form>
-    </div>
-
   </div>
-</div>
+
+  {% endif %}
+
 {% endif %}
+
+
+
+
+
 
 <cart-items class="page-width{% if cart == empty %} is-empty{% else %} section-{{ section.id }}-padding{% endif %}">
   <div class="title-wrapper-with-link">
