@@ -43,7 +43,7 @@
     {% assign product_b_in_cart = true %}
   {% endif %}
 
-  {% if item.product.handle == "product-c-handle" %}
+  {% if item.product.handle == "london-lane-full-bed-conversion-kit" %}
     {% assign product_c_in_cart = true %}
   {% endif %}
 
@@ -61,7 +61,7 @@
       {% assign product1 = all_products['product-b-handle'] %}
       <div class="upsell-item">
         <a href="{{ product1.url }}">
-          <img src="{{ product1.featured_image | img_url: '300x' }}">
+          <img height="150" width="150" src="{{ product1.featured_image | img_url: '300x' }}">
           <p>{{ product1.title }}</p>
         </a>
         <form method="post" action="/cart/add">
@@ -75,7 +75,7 @@
       {% assign product2 = all_products['product-c-handle'] %}
       <div class="upsell-item">
         <a href="{{ product2.url }}">
-          <img src="{{ product2.featured_image | img_url: '300x' }}">
+          <img height="150" width="150" src="{{ product2.featured_image | img_url: '300x' }}">
           <p>{{ product2.title }}</p>
         </a>
         <form method="post" action="/cart/add">
