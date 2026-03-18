@@ -221,7 +221,7 @@
         "type": "shopify://apps/one-click-upsell/blocks/app-embed/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
         "disabled": false,
         "settings": {
-          "allowed_templates": "index, page, blog"
+          "allowed_templates": "index, blog"
         }
       }
     },
