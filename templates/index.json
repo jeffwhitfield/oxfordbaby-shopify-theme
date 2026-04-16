@@ -295,10 +295,20 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "custom_liquid_wdWkWh": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render 'featured-sites' %}",
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
     }
   },
   "order": [
     "c2606e1a-524c-45a8-97df-95692da973bf",
+    "custom_liquid_wdWkWh",
     "625befb2-c62c-4dfc-84b3-073a2b46f24e",
     "4d8bc98f-e4bc-45af-9981-601d1c659935",
     "d82e94c2-585d-4077-b40a-31c163176a87",
