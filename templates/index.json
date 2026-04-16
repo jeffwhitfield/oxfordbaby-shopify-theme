@@ -112,7 +112,8 @@
       ],
       "custom_css": [
         ".slideshow__media.banner__media img {width: 100% !important;}",
-        ".slideshow__text.banner__box {max-width: 1320px !important; width: 100% !important; background-color: transparent !important; border: none !important; outline: none !important;}"
+        ".slideshow__text.banner__box {max-width: 1320px !important; width: 100% !important; background-color: transparent !important; border: none !important; outline: none !important;}",
+        ".banner__media:after {opacity: 1 !important; background: #ffffff;background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%) !important;}"
       ],
       "settings": {
         "layout": "full_bleed",
