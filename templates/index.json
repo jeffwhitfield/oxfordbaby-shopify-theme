@@ -22,7 +22,7 @@
             "button_label": "Shop Now",
             "link": "shopify://collections/cribs",
             "button_style_secondary": false,
-            "box_align": "middle-right",
+            "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
@@ -40,7 +40,7 @@
             "button_label": "Shop Now",
             "link": "shopify://collections/cribs",
             "button_style_secondary": false,
-            "box_align": "middle-right",
+            "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
@@ -58,7 +58,7 @@
             "button_label": "Shop Now",
             "link": "shopify://collections/cribs",
             "button_style_secondary": false,
-            "box_align": "middle-right",
+            "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
@@ -76,7 +76,7 @@
             "button_label": "Shop Now",
             "link": "shopify://collections/cribs",
             "button_style_secondary": false,
-            "box_align": "middle-right",
+            "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
@@ -94,7 +94,7 @@
             "button_label": "Shop Now",
             "link": "shopify://collections/cribs",
             "button_style_secondary": false,
-            "box_align": "middle-right",
+            "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
@@ -125,7 +125,7 @@
     "custom_liquid_wdWkWh": {
       "type": "custom-liquid",
       "custom_css": [
-        ".featured-sites__title.title-wrapper.title-wrapper--no-top-margin.page-width{display: none;}"
+        ".featured-sites__title.title-wrapper.title-wrapper--no-top-margin.page-width {display: none;}"
       ],
       "settings": {
         "custom_liquid": "{% render 'featured-sites' %}",
