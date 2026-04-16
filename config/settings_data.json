@@ -228,11 +228,6 @@
         "type": "shopify://apps/one-click-upsell/blocks/cart-drawer/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
         "disabled": false,
         "settings": {}
-      },
-      "4918592460924562117": {
-        "type": "shopify://apps/optimonk-popup-cro-a-b-test/blocks/app-embed/0b488be1-fc0a-4fe6-8793-f2bef383dba8",
-        "disabled": true,
-        "settings": {}
       }
     },
     "color_schemes": {
@@ -492,7 +487,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".has-text-white {color: #ffffff !important;}"
+      ".has-text-white {color: #ffffff !important;}",
+      ".slideshow__text-wrapper .slideshow__text .banner__buttons .button {color: #000!important; background-color: #fff !important; border: 1px solid #ffffff !important; border-radius: 50px !important; font-size: 20px !important; padding: 5px 50px !important;}"
     ]
   }
 }
