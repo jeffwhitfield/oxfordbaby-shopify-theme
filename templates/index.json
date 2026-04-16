@@ -122,6 +122,18 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "custom_liquid_wdWkWh": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".featured-sites__title.title-wrapper.title-wrapper--no-top-margin.page-width{display: none;}"
+      ],
+      "settings": {
+        "custom_liquid": "{% render 'featured-sites' %}",
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "625befb2-c62c-4dfc-84b3-073a2b46f24e": {
       "type": "collection-list-homepage",
       "blocks": {
@@ -288,15 +300,6 @@
       }
     },
     "custom_liquid_icLCPA": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{% render 'featured-sites' %}",
-        "color_scheme": "",
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
-    "custom_liquid_wdWkWh": {
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "{% render 'featured-sites' %}",
