@@ -111,7 +111,8 @@
         "d3ffa1d3-77b2-4816-ae69-821323fd5697"
       ],
       "custom_css": [
-        ".slideshow__media.banner__media img {width: 100% !important;}"
+        ".slideshow__media.banner__media img {width: 100% !important;}",
+        ".slideshow__text.banner__box {max-width: 1320px !important; width: 100% !important; background-color: transparent !important; border: none !important; outline:none !important;}"
       ],
       "settings": {
         "layout": "full_bleed",
