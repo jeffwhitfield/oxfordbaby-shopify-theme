@@ -110,7 +110,9 @@
         "7f30fd13-405c-4c98-aff2-2289a62a4904",
         "d3ffa1d3-77b2-4816-ae69-821323fd5697"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".slideshow__media.banner__media img{width:100%;}"
+      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "small",
