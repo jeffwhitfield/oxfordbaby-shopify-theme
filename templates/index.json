@@ -144,6 +144,37 @@
         "padding_bottom": 20
       }
     },
+    "rich_text_zGU893": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hc34yA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Influenced by Oxford",
+            "heading_size": "h1"
+          }
+        },
+        "text_BaTfQA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hc34yA",
+        "text_BaTfQA"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 0
+      }
+    },
     "625befb2-c62c-4dfc-84b3-073a2b46f24e": {
       "type": "collection-list-homepage",
       "blocks": {
@@ -309,37 +340,6 @@
         "include_margins": true
       }
     },
-    "rich_text_zGU893": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_hc34yA": {
-          "type": "heading",
-          "settings": {
-            "heading": "Influenced by Oxford",
-            "heading_size": "h1"
-          }
-        },
-        "text_BaTfQA": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_hc34yA",
-        "text_BaTfQA"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 52,
-        "padding_bottom": 0
-      }
-    },
     "17767115899376fb70": {
       "type": "apps",
       "blocks": {
@@ -373,12 +373,12 @@
   "order": [
     "c2606e1a-524c-45a8-97df-95692da973bf",
     "custom_liquid_wdWkWh",
+    "rich_text_zGU893",
+    "17767115899376fb70",
     "625befb2-c62c-4dfc-84b3-073a2b46f24e",
     "4d8bc98f-e4bc-45af-9981-601d1c659935",
     "d82e94c2-585d-4077-b40a-31c163176a87",
     "f5a0b836-31df-4688-b79b-4e9be9ee4f49",
-    "173214784825e7a93b",
-    "rich_text_zGU893",
-    "17767115899376fb70"
+    "173214784825e7a93b"
   ]
 }
