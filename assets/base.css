@@ -3787,7 +3787,7 @@ form.pushowl-optin-container {
   text-transform: none;
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
 
   .featured-sites{
     display:block !important;
