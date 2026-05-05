@@ -3792,7 +3792,7 @@ form.pushowl-optin-container {
   #shopify-section-template--20502729752888__custom_liquid_wdWkWh .featured-sites{
     display:block
   }
-  #shopify-section-template--20502729752888__custom_liquid_wdWkWh .featured-sites__title.title-wrapper.title-wrapper--no-top-margin.page-width{
+  #shopify-section-template--20502729752888__custom_liquid_wdWkWh .featured-sites .featured-sites__title.title-wrapper.{
     display:none;
   }
   #shopify-section-template--20502729752888__custom_liquid_wdWkWh .featured-sites__parade{
