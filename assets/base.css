@@ -3787,7 +3787,7 @@ form.pushowl-optin-container {
   text-transform: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
 
   .featured-sites{
     display:block
@@ -3795,7 +3795,7 @@ form.pushowl-optin-container {
  .featured-sites .featured-sites__title.title-wrapper{
     display:none;
   }
- .featured-sites__parade{
+ .featured-sites .featured-sites__parade{
     width:100%;
   }
 
