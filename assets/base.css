@@ -3792,7 +3792,7 @@ form.pushowl-optin-container {
   .featured-sites{
     display:block
   }
- .featured-sites .featured-sites__title.title-wrapper.{
+ .featured-sites .featured-sites__title.title-wrapper{
     display:none;
   }
  .featured-sites__parade{
