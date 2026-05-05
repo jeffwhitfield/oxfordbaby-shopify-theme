@@ -394,3 +394,39 @@ slider-component.slider-component-full-width {
 .slider-button--prev:not([disabled]):hover .icon {
   transform: rotate(90deg) scale(1.1);
 }
+
+@media (max-width: 767px) {
+  .featured-sites {
+    display: block !important;
+  }
+  .featured-sites .featured-sites__title.title-wrapper {
+    display: none !important;
+  }
+  .featured-sites .featured-sites__parade {
+    width: 100% !important;
+  }
+  .developer-slider .developer-slider-slideshow-banner .developer-slider_single_slide .slideshow__text-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    padding: 0 1rem 0 0 !important;
+  }
+  .developer-slider .developer-slider-slideshow-banner .developer-slider_single_slide .banner__media:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    opacity: 1 !important;
+    background: linear-gradient( 180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100% ) !important;
+  }
+  .developer-slider .developer-slider-slideshow-banner .developer-slider_single_slide .banner__content {
+    align-items: end !important;
+    justify-content: center !important;
+  }
+}
