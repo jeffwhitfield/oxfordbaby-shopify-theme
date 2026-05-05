@@ -3790,13 +3790,13 @@ form.pushowl-optin-container {
 @media screen and (max-width: 767px) {
 
   .featured-sites{
-    display:block
+    display:block !important;
   }
  .featured-sites .featured-sites__title.title-wrapper{
-    display:none;
+    display:none !important;
   }
  .featured-sites .featured-sites__parade{
-    width:100%;
+    width:100% !important;
   }
 
 }
