@@ -489,7 +489,7 @@
     "custom_css": [
       ".has-text-white {color: #ffffff !important;}",
       ".slideshow__text-wrapper .slideshow__text .banner__buttons .button {color: #000 !important; background-color: #fff !important; border: 1px solid #ffffff !important; border-radius: 50px !important; font-size: 20px !important; padding: 5px 50px !important;}",
-      "@media (max-width: 767px) {.featured-sites {display: block; } .featured-sites .featured-sites__title.title-wrapper {display: none; } .featured-sites .featured-sites__parade {width: 100%; }}"
+      "@media (max-width: 767px) {.featured-sites {display: block !important; } .featured-sites .featured-sites__title.title-wrapper {display: none !important; } .featured-sites .featured-sites__parade {width: 100% !important; }}"
     ]
   }
 }
