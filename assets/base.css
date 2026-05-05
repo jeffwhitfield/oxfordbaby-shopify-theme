@@ -3789,13 +3789,13 @@ form.pushowl-optin-container {
 
 @media screen and (min-width: 768px) {
 
-  #shopify-section-template--20502729752888__custom_liquid_wdWkWh .featured-sites{
+  .featured-sites{
     display:block
   }
-  #shopify-section-template--20502729752888__custom_liquid_wdWkWh .featured-sites .featured-sites__title.title-wrapper.{
+ .featured-sites .featured-sites__title.title-wrapper.{
     display:none;
   }
-  #shopify-section-template--20502729752888__custom_liquid_wdWkWh .featured-sites__parade{
+ .featured-sites__parade{
     width:100%;
   }
 
