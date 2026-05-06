@@ -3836,4 +3836,7 @@ form.pushowl-optin-container {
     align-items: end !important;
     justify-content: center !important;
   }
+  #MainContent .shopify-section.section .developer-slider .developer-slider-slideshow-banner .developer-slider_single_slide .banner__content .slideshow__text.banner__box{
+    height: auto !important;
+  }
 }
