@@ -394,6 +394,8 @@ slider-component.slider-component-full-width {
 .slider-button--prev:not([disabled]):hover .icon {
   transform: rotate(90deg) scale(1.1);
 }
+
+
 @media (max-width: 767px) {
   #MainContent .shopify-section.section .developer-slider-slideshow-banner .developer-slider_single_slide .slideshow__media.banner__media{
     height: 60vh !important;
@@ -431,5 +433,8 @@ slider-component.slider-component-full-width {
   #MainContent .shopify-section.section .developer-slider .developer-slider-slideshow-banner .developer-slider_single_slide .banner__content {
     align-items: end !important;
     justify-content: center !important;
+  }
+  #MainContent .shopify-section.section .developer-slider .developer-slider-slideshow-banner .developer-slider_single_slide .banner__content .slideshow__text.banner__box{
+    height: auto !important;
   }
 }
