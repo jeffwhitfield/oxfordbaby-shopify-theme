@@ -292,5 +292,12 @@ slideshow-component:not(.page-width) .slider-buttons {
   }
   #MainContent .shopify-section.section .developer-slider .developer-slider-slideshow-banner .developer-slider_single_slide .banner__content .slideshow__text.banner__box{
     height: auto !important;
+    padding: 4rem 15px !important;
+  }
+  #MainContent .shopify-section.section .developer-slider .developer-slider-slideshow-banner .developer-slider_single_slide .banner__content .slideshow__text.banner__box h2{
+    font-size: 26px !important;
+  }
+  #MainContent .shopify-section.section .developer-slider .developer-slider-slideshow-banner .developer-slider_single_slide .banner__content .slideshow__text.banner__box p{
+    font-size: 15px !important;
   }
 }
