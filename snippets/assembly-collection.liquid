@@ -13,8 +13,8 @@
   <div class="assembly-set">
     {%- for product in collection.products -%}
       {% assign show_pdf = product.metafields.custom.want_to_show_pdf_on_page.value %}
-      <p>DEBUG: "{{ show_pdf }}" — type: {{ show_pdf | type }}</p>
-      {% if show_pdf == blank or show_pdf == true %}
+      {% if show_pdf != false %}
+      {% else %}
         {%- if product.metafields.custom.assembly_instructions_1_url -%}
           <div class="assembly-product">
             <h3>{{- product.title -}}</h3>
