@@ -10,15 +10,15 @@
   }
 
   .video-hero--small {
-    min-height: 400px;
+    min-height: 50vh;
   }
 
   .video-hero--medium {
-    min-height: 550px;
+    min-height: 65vh;
   }
 
   .video-hero--large {
-    min-height: 700px;
+    min-height: 85vh;
   }
 
   .video-hero--full {
@@ -133,6 +133,15 @@
     .video-hero__text p{
       font-size: 15px !important;
     }
+    .video-hero--small {
+        min-height: 50vh;
+    }
+    .video-hero--medium {
+        min-height: 50vh;
+    }
+    .video-hero--large {
+        min-height: 60vh;
+    }
   }
 {% endstyle %}
 
@@ -233,9 +242,9 @@
       "id": "section_height",
       "label": "Section height",
       "options": [
-        { "value": "small", "label": "Small (400px)" },
-        { "value": "medium", "label": "Medium (550px)" },
-        { "value": "large", "label": "Large (700px)" },
+        { "value": "small", "label": "Small (50vh)" },
+        { "value": "medium", "label": "Medium (65vh)" },
+        { "value": "large", "label": "Large (85vh)" },
         { "value": "full", "label": "Full screen (100vh)" }
       ],
       "default": "medium"
