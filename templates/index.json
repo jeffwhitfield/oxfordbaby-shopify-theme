@@ -312,7 +312,7 @@
         "text_font_size": 27,
         "text_color": "#ffffff",
         "button_label": "Shop now",
-        "button_link": "",
+        "button_link": "shopify://collections/cribs",
         "button_style_secondary": false
       }
     }
