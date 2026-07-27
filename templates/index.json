@@ -304,7 +304,7 @@
         "fallback_image": "shopify://shop_images/London_Lane_Crib_-_Arctic_Gray_-_Angle_Lifestyle_Custom_Medium_e22a1808-d8e3-4e49-b0bb-c1e4b32a1795.jpg",
         "section_height": "large",
         "overlay_color": "#000000",
-        "overlay_opacity": 80,
+        "overlay_opacity": 100,
         "title": "Add a heading",
         "heading_font_size": 62,
         "text": "<p>ghfghfghfghfghfghg</p>",
