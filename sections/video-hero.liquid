@@ -136,7 +136,6 @@
 >
 
   <div class="video-hero__media">
-    {%- if has_video -%}
       {{
         section.settings.video
         | video_tag:
@@ -149,7 +148,7 @@
           poster: section.settings.fallback_image,
           class: 'video-hero__video'
       }}
-    {%- elsif section.settings.fallback_image != blank -%}
+    {%- if section.settings.fallback_image != blank -%}
       {{
         section.settings.fallback_image
         | image_url: width: 1920
