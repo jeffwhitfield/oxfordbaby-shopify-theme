@@ -9,19 +9,25 @@
     z-index: 1;
   }
 
-  .video-hero--small {
+  .video-hero--vh_50 {
     min-height: 50vh;
   }
-
-  .video-hero--medium {
+  .video-hero--vh_65 {
     min-height: 65vh;
   }
+  .video-hero--vh_75 {
+    min-height: 75vh;
+  }
 
-  .video-hero--large {
+  .video-hero--vh_85 {
     min-height: 85vh;
   }
 
-  .video-hero--full {
+  .video-hero--vh_95 {
+    min-height: 95vh;
+  }
+
+  .video-hero--vh_100 {
     min-height: 100vh;
   }
 
@@ -133,13 +139,15 @@
     .video-hero__text p{
       font-size: 15px !important;
     }
-    .video-hero--small {
+
+    .video-hero--vh_50,
+    .video-hero--vh_65
+    .video-hero--vh_75 {
         min-height: 50vh;
     }
-    .video-hero--medium {
-        min-height: 50vh;
-    }
-    .video-hero--large {
+    .video-hero--vh_85,
+    .video-hero--vh_95,
+    .video-hero--vh_100 {
         min-height: 60vh;
     }
     .video-hero{
@@ -245,12 +253,14 @@
       "id": "section_height",
       "label": "Section height",
       "options": [
-        { "value": "small", "label": "Small (50vh)" },
-        { "value": "medium", "label": "Medium (65vh)" },
-        { "value": "large", "label": "Large (85vh)" },
-        { "value": "full", "label": "Full screen (100vh)" }
+        { "value": "vh_50", "label": "50vh" },
+        { "value": "vh_65", "label": "65vh" },
+        { "value": "vh_75", "label": "75vh" },
+        { "value": "vh_85", "label": "85vh" },
+        { "value": "vh_95", "label": "95vh" },
+        { "value": "vh_100", "label": "Full screen (100vh)" }
       ],
-      "default": "medium"
+      "default": "vh_100"
     },
     {
       "type": "header",
