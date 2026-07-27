@@ -4,6 +4,8 @@
   assign section_height = section.settings.section_height
   assign overlay_color = section.settings.overlay_color
   assign overlay_opacity = section.settings.overlay_opacity | divided_by: 100.0
+  assign heading_font_size = section.settings.heading_font_size
+  assign text_font_size = section.settings.text_font_size
   assign has_video = false
   if section.settings.video != blank
     assign has_video = true
@@ -12,7 +14,7 @@
 
 <div
   class="video-hero video-hero--{{ section_height }}"
-  style="--vh-overlay-color: {{ overlay_color.red }}, {{ overlay_color.green }}, {{ overlay_color.blue }}; --vh-overlay-opacity: {{ overlay_opacity }};"
+  style="--vh-overlay-color: {{ overlay_color.red }}, {{ overlay_color.green }}, {{ overlay_color.blue }}; --vh-overlay-opacity: {{ overlay_opacity }}; --vh-heading-size: {{ heading_font_size }}px; --vh-text-size: {{ text_font_size }}px;"
   id="VideoHero-{{ section.id }}"
 >
 
@@ -136,10 +138,30 @@
       "default": "Add a heading"
     },
     {
+      "type": "range",
+      "id": "heading_font_size",
+      "label": "Heading font size",
+      "min": 16,
+      "max": 80,
+      "step": 2,
+      "unit": "px",
+      "default": 40
+    },
+    {
       "type": "richtext",
       "id": "text",
       "label": "Text",
       "default": "<p>Share a bit about this section or promotion.</p>"
+    },
+    {
+      "type": "range",
+      "id": "text_font_size",
+      "label": "Text font size",
+      "min": 12,
+      "max": 40,
+      "step": 1,
+      "unit": "px",
+      "default": 18
     },
     {
       "type": "text",
