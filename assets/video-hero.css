@@ -72,13 +72,13 @@
 
 .video-hero__title {
   margin: 0 0 1rem;
-  font-size: 2.5rem;
+  font-size: var(--vh-heading-size, 2.5rem);
   line-height: 1.2;
 }
 
 .video-hero__text {
   margin: 0 0 1.5rem;
-  font-size: 1.1rem;
+  font-size: var(--vh-text-size, 1.1rem);
   line-height: 1.5;
 }
 
@@ -95,10 +95,10 @@
 
 @media screen and (max-width: 749px) {
   .video-hero__title {
-    font-size: 1.8rem;
+    font-size: clamp(1.6rem, calc(var(--vh-heading-size, 2.5rem) * 0.7), var(--vh-heading-size, 2.5rem));
   }
 
   .video-hero__text {
-    font-size: 1rem;
+    font-size: clamp(0.9rem, calc(var(--vh-text-size, 1.1rem) * 0.85), var(--vh-text-size, 1.1rem));
   }
 }
