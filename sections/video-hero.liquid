@@ -1,0 +1,168 @@
+{{ 'video-hero.css' | asset_url | stylesheet_tag }}
+
+{%- liquid
+  assign section_height = section.settings.section_height
+  assign overlay_color = section.settings.overlay_color
+  assign overlay_opacity = section.settings.overlay_opacity | divided_by: 100.0
+  assign has_video = false
+  if section.settings.video != blank
+    assign has_video = true
+  endif
+-%}
+
+<div
+  class="video-hero video-hero--{{ section_height }}"
+  style="--vh-overlay-color: {{ overlay_color.red }}, {{ overlay_color.green }}, {{ overlay_color.blue }}; --vh-overlay-opacity: {{ overlay_opacity }};"
+  id="VideoHero-{{ section.id }}"
+>
+
+  <div class="video-hero__media">
+    {%- if has_video -%}
+      {{
+        section.settings.video
+        | video_tag:
+          image_size: '1920x',
+          autoplay: true,
+          loop: true,
+          muted: true,
+          controls: false,
+          playsinline: true,
+          poster: section.settings.fallback_image,
+          class: 'video-hero__video'
+      }}
+    {%- elsif section.settings.fallback_image != blank -%}
+      {{
+        section.settings.fallback_image
+        | image_url: width: 1920
+        | image_tag:
+          loading: 'lazy',
+          sizes: '100vw',
+          widths: '375, 750, 1100, 1500, 1920',
+          class: 'video-hero__image'
+      }}
+    {%- else -%}
+      <div class="video-hero__placeholder"></div>
+    {%- endif -%}
+
+    <div class="video-hero__overlay"></div>
+  </div>
+
+  <div class="video-hero__content page-width">
+    <div class="video-hero__content-inner">
+      {%- if section.settings.title != blank -%}
+        <h2 class="video-hero__title">{{ section.settings.title }}</h2>
+      {%- endif -%}
+
+      {%- if section.settings.text != blank -%}
+        <div class="video-hero__text">{{ section.settings.text }}</div>
+      {%- endif -%}
+
+      {%- if section.settings.button_label != blank -%}
+        <div class="video-hero__buttons">
+          <a
+            {% if section.settings.button_link == blank %}
+              role="link" aria-disabled="true"
+            {% else %}
+              href="{{ section.settings.button_link }}"
+            {% endif %}
+            class="button {% if section.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}"
+          >
+            {{ section.settings.button_label }}
+          </a>
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Video hero",
+  "tag": "section",
+  "class": "section-video-hero",
+  "settings": [
+    {
+      "type": "video",
+      "id": "video",
+      "label": "Background video",
+      "info": "Video uploaded to Shopify. Autoplays muted and loops. Falls back to the image below on unsupported devices."
+    },
+    {
+      "type": "image_picker",
+      "id": "fallback_image",
+      "label": "Fallback / poster image",
+      "info": "Shown while the video loads, and used instead of the video on devices that can't play it or if no video is uploaded."
+    },
+    {
+      "type": "select",
+      "id": "section_height",
+      "label": "Section height",
+      "options": [
+        { "value": "small", "label": "Small (400px)" },
+        { "value": "medium", "label": "Medium (550px)" },
+        { "value": "large", "label": "Large (700px)" },
+        { "value": "full", "label": "Full screen (100vh)" }
+      ],
+      "default": "medium"
+    },
+    {
+      "type": "header",
+      "content": "Overlay"
+    },
+    {
+      "type": "color",
+      "id": "overlay_color",
+      "label": "Overlay color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "label": "Overlay opacity",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Add a heading"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>Share a bit about this section or promotion.</p>"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label",
+      "default": "Shop now"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "checkbox",
+      "id": "button_style_secondary",
+      "label": "Use secondary (outline) button style",
+      "default": false
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video hero"
+    }
+  ]
+}
+{% endschema %}
