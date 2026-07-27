@@ -31,7 +31,6 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
-    z-index:2;
   }
 
   .video-hero__video,
@@ -49,7 +48,6 @@
 
   .video-hero__placeholder {
     background-color: #d9d9d9;
-    z-index:2;
   }
 
   .video-hero__overlay {
@@ -79,12 +77,14 @@
   .video-hero__title {
     margin: 0 0 1rem;
     font-size: var(--vh-heading-size, 2.5rem);
+    color: var(--vh-heading-color, #ffffff);
     line-height: 1.2;
   }
 
   .video-hero__text {
     margin: 0 0 1.5rem;
     font-size: var(--vh-text-size, 1.1rem);
+    color: var(--vh-text-color, #ffffff);
     line-height: 1.5;
   }
 
@@ -116,6 +116,8 @@
   assign overlay_opacity = section.settings.overlay_opacity | divided_by: 100.0
   assign heading_font_size = section.settings.heading_font_size
   assign text_font_size = section.settings.text_font_size
+  assign heading_color = section.settings.heading_color
+  assign text_color = section.settings.text_color
   assign has_video = false
   if section.settings.video != blank
     assign has_video = true
@@ -124,7 +126,7 @@
 
 <div
   class="video-hero video-hero--{{ section_height }}"
-  style="--vh-overlay-color: {{ overlay_color.red }}, {{ overlay_color.green }}, {{ overlay_color.blue }}; --vh-overlay-opacity: {{ overlay_opacity }}; --vh-heading-size: {{ heading_font_size }}px; --vh-text-size: {{ text_font_size }}px;"
+  style="--vh-overlay-color: {{ overlay_color.red }}, {{ overlay_color.green }}, {{ overlay_color.blue }}; --vh-overlay-opacity: {{ overlay_opacity }}; --vh-heading-size: {{ heading_font_size }}px; --vh-text-size: {{ text_font_size }}px; --vh-heading-color: {{ heading_color }}; --vh-text-color: {{ text_color }};"
   id="VideoHero-{{ section.id }}"
 >
 
@@ -258,6 +260,12 @@
       "default": 40
     },
     {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#ffffff"
+    },
+    {
       "type": "richtext",
       "id": "text",
       "label": "Text",
@@ -272,6 +280,12 @@
       "step": 1,
       "unit": "px",
       "default": 18
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#ffffff"
     },
     {
       "type": "text",
