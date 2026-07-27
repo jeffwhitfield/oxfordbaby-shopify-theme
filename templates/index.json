@@ -295,15 +295,20 @@
     },
     "video_hero_4cmywm": {
       "type": "video-hero",
+      "custom_css": [
+        ".video-hero__buttons .button {color: #000 !important; background-color: #fff !important; border: 1px solid #ffffff !important; border-radius: 50px !important; font-size: 20px !important; padding: 5px 50px !important;}"
+      ],
       "name": "Video hero",
       "settings": {
         "video": "shopify://files/videos/Oxford.mp4",
         "fallback_image": "shopify://shop_images/London_Lane_Crib_-_Arctic_Gray_-_Angle_Lifestyle_Custom_Medium_e22a1808-d8e3-4e49-b0bb-c1e4b32a1795.jpg",
-        "section_height": "medium",
+        "section_height": "large",
         "overlay_color": "#000000",
-        "overlay_opacity": 0,
+        "overlay_opacity": 80,
         "title": "Add a heading",
+        "heading_font_size": 62,
         "text": "<p>ghfghfghfghfghfghg</p>",
+        "text_font_size": 27,
         "button_label": "Shop now",
         "button_link": "",
         "button_style_secondary": false
