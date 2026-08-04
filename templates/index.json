@@ -196,7 +196,7 @@
         "image_position": "center center",
         "lazy_load": false,
         "height_desktop": 340,
-        "height_mobile": 250,
+        "height_mobile": 110,
         "show_overlay": false,
         "overlay_color": "#000000",
         "overlay_opacity": 40,
