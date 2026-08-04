@@ -188,6 +188,26 @@
         "padding_bottom": 0
       }
     },
+    "custom_image_banner_6gnh6T": {
+      "type": "custom-image-banner",
+      "name": "Custom Image Banner",
+      "settings": {
+        "background_image": "shopify://shop_images/Ox_-_So_-_Meridian_Hero_image_1920X339_5_BANNER.jpg",
+        "image_position": "center center",
+        "lazy_load": false,
+        "height_desktop": 340,
+        "height_mobile": 250,
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 40,
+        "link": "https://www.sohobaby.com/collections/meridian-collection",
+        "open_new_tab": true,
+        "full_width": true,
+        "max_width": 1200,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "d82e94c2-585d-4077-b40a-31c163176a87": {
       "type": "custom-liquid",
       "custom_css": [],
@@ -272,26 +292,6 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "custom_image_banner_6gnh6T": {
-      "type": "custom-image-banner",
-      "name": "Custom Image Banner",
-      "settings": {
-        "background_image": "shopify://shop_images/Ox_-_So_-_Meridian_Hero_image_1920X339_5_BANNER.jpg",
-        "image_position": "center center",
-        "lazy_load": false,
-        "height_desktop": 340,
-        "height_mobile": 250,
-        "show_overlay": false,
-        "overlay_color": "#000000",
-        "overlay_opacity": 40,
-        "link": "",
-        "open_new_tab": false,
-        "full_width": true,
-        "max_width": 1200,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
     }
   },
   "order": [
@@ -301,9 +301,9 @@
     "17767115899376fb70",
     "625befb2-c62c-4dfc-84b3-073a2b46f24e",
     "4d8bc98f-e4bc-45af-9981-601d1c659935",
+    "custom_image_banner_6gnh6T",
     "d82e94c2-585d-4077-b40a-31c163176a87",
     "f5a0b836-31df-4688-b79b-4e9be9ee4f49",
-    "173214784825e7a93b",
-    "custom_image_banner_6gnh6T"
+    "173214784825e7a93b"
   ]
 }
