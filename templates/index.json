@@ -18,7 +18,7 @@
       "name": "Video hero",
       "settings": {
         "video": "shopify://files/videos/Oxford.mp4",
-        "fallback_image": "shopify://shop_images/Ox_-_So_-_Meridian_Hero_image_1920X339_5_BANNER.jpg",
+        "fallback_image": "shopify://shop_images/Untitled_design_-_2024-06-19T163720.091.jpg",
         "section_height": "vh_50",
         "overlay_color": "#000000",
         "overlay_opacity": 35,
