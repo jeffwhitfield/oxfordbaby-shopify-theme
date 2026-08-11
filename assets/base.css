@@ -3798,7 +3798,10 @@ form.pushowl-optin-container {
   font-size: 20px !important;
   padding: 5px 50px !important;
 }
-
+.ocu-cart-footer button,
+.ocu-checkout-button {
+  width: 100%;
+}
 
 
 @media (max-width: 767px) {
