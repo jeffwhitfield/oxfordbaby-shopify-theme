@@ -3802,7 +3802,9 @@ form.pushowl-optin-container {
 .ocu-checkout-button {
   width: 100%;
 }
-
+.modal90 .modal90-container .modal90-right{
+  display:none;
+}
 
 @media (max-width: 767px) {
   #MainContent .shopify-section.section .developer-slider-slideshow-banner .developer-slider_single_slide .slideshow__media.banner__media{
