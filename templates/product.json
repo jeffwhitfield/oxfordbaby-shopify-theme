@@ -144,8 +144,8 @@
       "type": "certification-highlight",
       "name": "Certification Highlight",
       "settings": {
-        "background_color": "#C4F0F6",
-        "left_color": "#47C1D1",
+        "background_color": "#D2E1E3",
+        "left_color": "#758D90",
         "left_image": "shopify://shop_images/13596830_4.jpg",
         "badge_image": "shopify://shop_images/greenguard-logo-cropped.webp",
         "title": "GREENGUARD Gold Certified",
