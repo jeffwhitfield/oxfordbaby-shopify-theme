@@ -27,18 +27,44 @@
             "enable_follow_on_shop": true
           }
         },
-        "cfcc7745-9e2e-45d8-9f6f-fedd41b01f3c": {
-          "type": "link_list",
+        "menu_dWWFbi": {
+          "type": "menu",
+          "settings": {
+            "column_width": 17,
+            "heading": "ABOUT US",
+            "menu": "footer-about"
+          }
+        },
+        "menu_Xzqy6U": {
+          "type": "menu",
           "settings": {
             "column_width": 19,
-            "heading": "Customer Support",
+            "heading": "COLLECTIONS",
+            "menu": "collections"
+          }
+        },
+        "menu_KAQQyx": {
+          "type": "menu",
+          "settings": {
+            "column_width": 17,
+            "heading": "CUSTOMER SUPPORT",
             "menu": "footer"
+          }
+        },
+        "social_mVq779": {
+          "type": "social",
+          "settings": {
+            "column_width": 10,
+            "heading": "Follow Us"
           }
         }
       },
       "block_order": [
         "newsletter_hgeTzC",
-        "cfcc7745-9e2e-45d8-9f6f-fedd41b01f3c"
+        "menu_dWWFbi",
+        "menu_Xzqy6U",
+        "menu_KAQQyx",
+        "social_mVq779"
       ],
       "settings": {
         "color_scheme": "background-1",
