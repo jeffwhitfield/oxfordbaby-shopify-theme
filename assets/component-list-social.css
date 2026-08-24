@@ -18,8 +18,13 @@
 .list-social__link {
   align-items: center;
   display: flex;
-  padding: 1.1rem;
-  color: #9c2429;
+  padding: 0.6rem;
+  color: #fff;
+}
+
+.header .list-social__link {
+
+  color: #6f78ac;
 }
 
 .utility-bar .list-social__link {
