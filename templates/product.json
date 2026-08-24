@@ -140,6 +140,24 @@
         "padding_bottom": 0
       }
     },
+    "certification_highlight_eaDxcC": {
+      "type": "certification-highlight",
+      "name": "Certification Highlight",
+      "settings": {
+        "background_color": "#C4F0F6",
+        "left_color": "#47C1D1",
+        "left_image": "shopify://shop_images/13596830_4.jpg",
+        "badge_image": "shopify://shop_images/greenguard-logo-cropped.webp",
+        "title": "GREENGUARD Gold Certified",
+        "text": "<p>Relax and breathe easy knowing your nursery is GREENGUARD Gold Certified. Greenguard Gold certified products are tested for over 15,000 chemicals and VOC’s, ensuring low emissions and healthier indoor air inside your baby’s nursery. Because newborns spend up to 90% of their time indoors, and sleep for up to 19 hours per day, it is essential for them to have a healthy environment in their nursery.</p>",
+        "text_2": "<p>Greenguard Gold Certified products guarantee safer furniture for babies and peace of mind for parents.</p>",
+        "show_decoration": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 100,
+        "margin_bottom": 100
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -191,6 +209,7 @@
   },
   "order": [
     "main",
+    "certification_highlight_eaDxcC",
     "related-products",
     "17017332749af2ad03",
     "56c0f5bf-a379-4f47-8c8a-684488062589"
