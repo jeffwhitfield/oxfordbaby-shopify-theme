@@ -12,6 +12,10 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "8cb20c26-947c-4c1d-bae2-c02344a3f43b": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -29,10 +33,6 @@
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
             "text_style": "subtitle"
           }
-        },
-        "8cb20c26-947c-4c1d-bae2-c02344a3f43b": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
         },
         "price": {
           "type": "price",
@@ -58,6 +58,12 @@
         "one_click_upsell_on_page_knHrAb": {
           "type": "shopify://apps/one-click-upsell/blocks/on-page/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
           "settings": {}
+        },
+        "custom_liquid_fXzqzx": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!-- Semget Embed HTML !-->\n            <script>\n                var semgetshopdomain = '{{- shop.permanent_domain | escape -}}';\n            \tvar semgetProductSpecs = {{- product | json }};\n            \tvar semgetCurVarId = '{{- product.selected_or_first_available_variant.id -}}';\n            \tvar semgetVariantSpecs = {};\n            \t{%- for variant in product.variants -%} \n            \tsemgetVariantSpecs[{{- variant.id -}}] = {{- variant | json -}};\n            \t{%- endfor -%}\n            </script>\n            <div id=\"semgetembed\" data-btnclass=\"abcsemget\" data-text=\"Notify me\" data-textcolor=\"#ed2c24\" data-buttonbg=\"#ffffff\" data-buttonborder=\"#c679ab\" \n            data-hovercolor=\"#c679ab\" data-hovertextcolor=\"#ffffff\" data-width=\"100\" data-radious=\"14\" data-popupclass=\"semgetpopup\"\n            data-popuphead=\"Notify Me When Available\" data-popupsubhead=\"Fill in the required details to get notified when the product is again in stock!\" \n            data-nametext=\"Name\" data-emailtext=\"Email\" data-popupbtn=\"Notify Me\" data-popupimg=\"https://cdn.shopify.com/s/files/1/0580/0846/9573/files/41336870_2.jpg?v=1782837285\"\n            data-thanksmsg=\"Thanks, We Will Notify You When Product Back In Stock!!\" data-popupheadcolor=\"#55311C\"  data-popupsubheadcolor=\"#4A4A4A\"\n            data-popuplabelcolor=\"#8C7569\" data-popupbtncolor=\"#ED2C24\" data-popupbtntextcolor=\"#FFFFFF\" data-thanksmsgcolor=\"#F15B29\"\n            >\n            </div>\n            <!-- Semget Embed HTML !-->"
+          }
         },
         "description": {
           "type": "description",
@@ -102,15 +108,16 @@
         }
       },
       "block_order": [
+        "8cb20c26-947c-4c1d-bae2-c02344a3f43b",
         "vendor",
         "title",
         "caption",
-        "8cb20c26-947c-4c1d-bae2-c02344a3f43b",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "one_click_upsell_on_page_knHrAb",
+        "custom_liquid_fXzqzx",
         "description",
         "collapsible-row-1",
         "collapsible-row-2",
@@ -122,15 +129,15 @@
         "enable_sticky_info": true,
         "media_size": "large",
         "constrain_to_viewport": true,
-        "media_fit": "contain",
+        "media_fit": "cover",
         "gallery_layout": "thumbnail_slider",
         "media_position": "left",
         "image_zoom": "lightbox",
-        "mobile_thumbnails": "show",
-        "hide_variants": false,
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
         "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 12
+        "padding_top": 48,
+        "padding_bottom": 0
       }
     },
     "17017332749af2ad03": {
