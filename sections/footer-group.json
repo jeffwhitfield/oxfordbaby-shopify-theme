@@ -66,6 +66,9 @@
         "menu_KAQQyx",
         "social_mVq779"
       ],
+      "custom_css": [
+        ".footer .footer-block--menu .list-menu__item--link {padding: 0;}"
+      ],
       "settings": {
         "color_scheme": "background-1",
         "background_color": "#6F78AC",
