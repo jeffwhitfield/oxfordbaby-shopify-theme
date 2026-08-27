@@ -20,6 +20,12 @@
           "type": "title",
           "settings": {}
         },
+        "sku_6m7FJP": {
+          "type": "sku",
+          "settings": {
+            "text_style": "subtitle"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {}
@@ -100,6 +106,7 @@
       "block_order": [
         "8cb20c26-947c-4c1d-bae2-c02344a3f43b",
         "title",
+        "sku_6m7FJP",
         "price",
         "variant_picker",
         "quantity_selector",
