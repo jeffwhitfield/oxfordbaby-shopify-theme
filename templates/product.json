@@ -23,7 +23,7 @@
         "text_KVJgkj": {
           "type": "text",
           "settings": {
-            "text": "<strong>Item Number:- </strong>",
+            "text": "I<strong>tem Number:</strong>",
             "text_style": "subtitle"
           }
         },
