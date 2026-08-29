@@ -1,12 +1,24 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'section-related-products.css' | asset_url | stylesheet_tag }}
+
+{% assign current_collection = null %}
 {% for collection in product.collections %}
   {% if collection.title contains 'Collection' %}
-    {% assign current_collection = collection.title %}
-    {% assign show_related = true %}
+    {% assign current_collection = collection %}
+    {% break %}
   {% endif %}
 {% endfor %}
-{% if show_related %}
+
+{% assign related_count = 0 %}
+{% if current_collection %}
+  {% for related in current_collection.products %}
+    {% if related.id != product.id and related.available %}
+      {% assign related_count = related_count | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if related_count > 0 %}
   <div class="color-background-1 isolate gradient">
     <div class="collection section-{{ section.id }}-padding">
       <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width">
@@ -20,26 +32,21 @@
           role="list"
           aria-label="{{ 'general.slider.name' | t }}"
         >
-          {% for collection in collections %}
-            {% for related in collection.products %}
-              {% if collection.title == current_collection and product.title != related.title %}
-                <li
-                  id="Slide-{{ section.id }}-{{ forloop.index }}"
-                  class="grid__item"
-                >
-                  {% render 'card-product',
-                    card_product: related,
-                    media_aspect_ratio: section.settings.image_ratio,
-                    image_shape: section.settings.image_shape,
-                    show_secondary_image: section.settings.show_secondary_image,
-                    show_vendor: section.settings.show_vendor,
-                    show_rating: section.settings.show_rating,
-                    show_quick_add: section.settings.enable_quick_add,
-                    section_id: section.id
-                  %}
-                </li>
-              {% endif %}
-            {% endfor %}
+          {% for related in current_collection.products %}
+            {% if related.id != product.id and related.available %}
+              <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="grid__item">
+                {% render 'card-product',
+                  card_product: related,
+                  media_aspect_ratio: section.settings.image_ratio,
+                  image_shape: section.settings.image_shape,
+                  show_secondary_image: section.settings.show_secondary_image,
+                  show_vendor: section.settings.show_vendor,
+                  show_rating: section.settings.show_rating,
+                  show_quick_add: section.settings.enable_quick_add,
+                  section_id: section.id
+                %}
+              </li>
+            {% endif %}
           {% endfor %}
         </ul>
       </slider-component>
