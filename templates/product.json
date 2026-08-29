@@ -129,7 +129,7 @@
         "160dcf79-16a5-46c8-9555-44d3b9ebdece"
       ],
       "custom_css": [
-        "p.product__sku {margin: 0 0 0 10px; display: inline-block; line-height: 1.1em; position: relative; vertical-align: middle;}",
+        "p.product__sku {margin: 0 0 0 8px; display: inline-block; line-height: 1.1em; position: relative; vertical-align: middle;}",
         "p.product__text.inline-richtext.subtitle {line-height: 1em; display: inline-block; position: relative; vertical-align: middle; margin: 0;}"
       ],
       "settings": {
