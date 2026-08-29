@@ -168,6 +168,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "Complete The Set",
         "heading_size": "h2",
@@ -206,7 +207,6 @@
     },
     "56c0f5bf-a379-4f47-8c8a-684488062589": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "{% render 'related-products' %}",
         "color_scheme": "",
