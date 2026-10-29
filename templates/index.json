@@ -193,7 +193,7 @@
       "type": "custom-image-banner",
       "name": "Custom Image Banner",
       "settings": {
-        "background_image": "shopify://shop_images/Ox_-_So_-_Meridian_Hero_image_1920X339_5_BANNER.jpg",
+        "background_image": "shopify://shop_images/Soho_Banner_for_Oxford.png",
         "image_position": "center center",
         "lazy_load": false,
         "height_desktop": 340,
